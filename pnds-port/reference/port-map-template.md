@@ -44,6 +44,7 @@ Voice model ruling: **per-seat / shared-per-endpoint** — evidence: <...>.
 - Node/sector rules: <...>
 - Performer interactions on the score (taps etc.) → ported to: <performer page affordance / monitor>
 - p5 source files transplanted into: <monitor.js structure notes>
+- Key map vs page-interaction.md: <original keys → ported keys, with remap reasons (⌘ / system / reserved keys remapped into the safe zone: plain chars, ⇧/⌥ combos, F1–F12)>
 
 ## 5. Sync set 最小同步集
 
@@ -76,5 +77,5 @@ Explicitly NOT synced: <list>.
 
 ## 10. Manual acceptance checklist 人工验收
 
-Per role: each control moved → expected sound change. Cross-endpoint: section transition visible everywhere; tap visible everywhere; hub drop → local autonomy; reconnect → convergence. Performer platform: two-finger simultaneous controls on a phone; page usable in both orientations; no rotate trap on a desktop landscape window; monitor shows the full hub room name + node id.
+Per role: each control moved → expected sound change. Cross-endpoint: section transition visible everywhere; tap visible everywhere; hub drop → local autonomy; reconnect → convergence. Performer platform: two-finger simultaneous controls on a phone; page usable in both orientations; no rotate trap on a desktop landscape window; monitor shows the full hub room name + node id. Monitor keys: every conductor binding fires inside the App (page-interaction.md safe zone, no reserved-key collisions).
 ```
