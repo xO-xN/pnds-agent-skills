@@ -1,0 +1,10 @@
+{
+  "command": "swift",
+  "args": [
+    "/private/tmp/pnds-161-workflow-results/qr-piece/tests/decode-qr.swift",
+    "/tmp/pnds-161-workflow-results/evidence/case07-full-qr.png"
+  ],
+  "exit": 0,
+  "stdout": "http://127.0.0.1:53102/?ticket=abc#observe\n",
+  "stderr": ""
+}

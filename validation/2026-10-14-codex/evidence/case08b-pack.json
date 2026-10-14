@@ -1,0 +1,17 @@
+{
+  "label": "case08b-pack",
+  "cwd": "/tmp/pnds-161-workflow-results",
+  "command": "node",
+  "args": [
+    "/tmp/pnds-161-skills-harness/portable-skills-reviewed/pnds-validate/tools/pack.mjs",
+    "/tmp/pnds-161-workflow-results/qr-piece",
+    "--out",
+    "/tmp/pnds-161-workflow-results/distribution"
+  ],
+  "startedAt": "2026-10-13T17:45:40.671Z",
+  "finishedAt": "2026-10-13T17:45:40.834Z",
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "{\n  \"pndsFile\": \"/private/tmp/pnds-161-workflow-results/distribution/Existing Score-0.4.3.pnds\",\n  \"sha256\": \"02cc2438193ee6de6b0bf7c72a444d9715550bb59be97a0432bc6fddaab64c2c\",\n  \"rootDir\": \"Existing Score\",\n  \"runtimeVerified\": false\n}\n",
+  "stderr": ""
+}

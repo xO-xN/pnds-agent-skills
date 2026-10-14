@@ -1,0 +1,15 @@
+{
+  "label": "final-source-hashes",
+  "cwd": "/tmp/pnds-161-workflow-results",
+  "command": "node",
+  "args": [
+    "scripts/source-snapshot.mjs",
+    "final"
+  ],
+  "startedAt": "2026-10-13T17:46:25.278Z",
+  "finishedAt": "2026-10-13T17:46:25.313Z",
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "Recorded source hashes: final\n",
+  "stderr": ""
+}

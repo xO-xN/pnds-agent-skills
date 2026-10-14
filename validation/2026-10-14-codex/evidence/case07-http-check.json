@@ -1,0 +1,15 @@
+{
+  "label": "case07-http-check",
+  "cwd": "/tmp/pnds-161-workflow-results/qr-piece",
+  "command": "npm",
+  "args": [
+    "run",
+    "check"
+  ],
+  "startedAt": "2026-10-13T17:42:26.939Z",
+  "finishedAt": "2026-10-13T17:42:38.550Z",
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "\n> check\n> node --check server.cjs && node --test tests/*.test.cjs\n\n✔ real HTTP fallback performer and monitor QR preserve piece (8952.382333ms)\n✔ full injected URL preserves query/fragment, actual destination responds, request Host cannot change QR (393.719959ms)\n✔ invalid supplied address gives module HTTP error and is not exposed on performer QR (92.103167ms)\nℹ tests 3\nℹ suites 0\nℹ pass 3\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 11479.880417\n",
+  "stderr": ""
+}

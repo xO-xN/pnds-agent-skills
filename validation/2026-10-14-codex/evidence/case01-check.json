@@ -1,0 +1,15 @@
+{
+  "label": "case01-check",
+  "cwd": "/tmp/pnds-161-workflow-results/new-piece",
+  "command": "npm",
+  "args": [
+    "run",
+    "check"
+  ],
+  "startedAt": "2026-10-13T17:35:24.242Z",
+  "finishedAt": "2026-10-13T17:35:24.466Z",
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "\n> cyan-twelve@0.1.0 check\n> node --check server.cjs && node --check public/monitor.js && node --check public/timeline.js && node --test tests/*.test.mjs\n\n✔ duration is twelve seconds and position remains bounded (0.332334ms)\n✔ actual monitor controller waits for START, finishes once and stays stopped (0.665417ms)\nℹ tests 2\nℹ suites 0\nℹ pass 2\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 39.715833\n",
+  "stderr": ""
+}

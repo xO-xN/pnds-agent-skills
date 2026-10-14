@@ -1,0 +1,15 @@
+{
+  "label": "case01-structure",
+  "cwd": "/tmp/pnds-161-workflow-results",
+  "command": "node",
+  "args": [
+    "scripts/static-structure.mjs",
+    "new-piece"
+  ],
+  "startedAt": "2026-10-13T17:39:11.860Z",
+  "finishedAt": "2026-10-13T17:39:11.887Z",
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "{\n  \"checked\": {\n    \"root\": \"/private/tmp/pnds-161-workflow-results/new-piece\",\n    \"manifest\": {\n      \"schemaVersion\": 1,\n      \"id\": \"cyan-twelve\",\n      \"name\": \"Cyan Twelve\",\n      \"version\": \"0.1.0\",\n      \"description\": \"A visual-only observation score.\",\n      \"scoreServer\": {\n        \"entry\": \"server.cjs\",\n        \"workingDirectory\": \".\",\n        \"performerPort\": 6868,\n        \"monitorPort\": 6869\n      },\n      \"audio\": {\n        \"defaultMode\": \"none\",\n        \"supportedModes\": [\n          \"none\"\n        ]\n      }\n    }\n  },\n  \"result\": \"static subset passed; no execution or App opening\"\n}\n",
+  "stderr": ""
+}

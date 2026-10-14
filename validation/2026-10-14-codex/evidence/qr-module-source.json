@@ -1,0 +1,18 @@
+{
+  "source": "/Users/xiaoxiang/Coding/PNDS app 开发/PNDS-App-main/src-tauri/resources/modules/qr",
+  "sourceKind": "explicitly supplied fixed App development resource; copied only, no published/released guarantee",
+  "deliveryVersion": "0.2.0",
+  "hostProtocol": 1,
+  "runtime": [
+    "Node 24",
+    "qrcode 1.5.x",
+    "Express4-compatible response API supplied by project"
+  ],
+  "adaptation": "root resolves full performer URL; monitor QR route/display; same resolved config/label; all-interface LAN bind; None scope preserved",
+  "files": {
+    "README.md": "8ac408cc5085818cb09741630f343ad83981e28f3c24fe335ec60654bbfc51f0",
+    "compatibility.json": "b6a4b297e5839b6209d6bd31338caf703305b583ddd12d61c8ab0c2f52bca303",
+    "package.json": "1ae37eaf58b0a679dec937ab58ec816c769d497468ed2c132f8517db27fc1909",
+    "qr.js": "949d34e74878f95077459bcb249c997a6f581718b29cb2cb3bee3b841aa7b8c9"
+  }
+}

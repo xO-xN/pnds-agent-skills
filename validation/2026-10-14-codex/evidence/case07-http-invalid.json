@@ -1,0 +1,25 @@
+{
+  "health": {
+    "status": "ready",
+    "projectId": "existing-score",
+    "audioMode": "none",
+    "audio": {
+      "status": "disabled",
+      "target": null,
+      "error": null
+    },
+    "scoreServer": {
+      "performerPort": 53113,
+      "monitorPort": 53114,
+      "error": null
+    }
+  },
+  "qrHTTP": 400,
+  "error": "invalid-performer-url",
+  "childStopped": true,
+  "exit": {
+    "code": 0,
+    "signal": null
+  },
+  "serverOutput": ""
+}

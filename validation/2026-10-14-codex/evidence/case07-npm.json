@@ -1,0 +1,17 @@
+{
+  "label": "case07-npm",
+  "cwd": "/tmp/pnds-161-workflow-results/qr-piece",
+  "command": "npm",
+  "args": [
+    "install",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund"
+  ],
+  "startedAt": "2026-10-13T17:40:08.554Z",
+  "finishedAt": "2026-10-13T17:41:18.718Z",
+  "exitCode": 1,
+  "signal": null,
+  "stdout": "",
+  "stderr": "npm error code ENOTFOUND\nnpm error syscall getaddrinfo\nnpm error errno ENOTFOUND\nnpm error network request to https://registry.npmjs.org/qrcode failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org\nnpm error network This is a problem related to network connectivity.\nnpm error network In most cases you are behind a proxy or have bad network settings.\nnpm error network\nnpm error network If you are behind a proxy, please make sure that the 'proxy' config is set properly.  See: 'npm help config'\nnpm error Log files were not written due to an error writing to the directory: /Users/xiaoxiang/.npm/_logs\nnpm error You can rerun the command with `--loglevel=verbose` to see the logs in your terminal\n"
+}

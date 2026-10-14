@@ -1,0 +1,10 @@
+{
+  "packToolBytesUnchanged": true,
+  "courseOutputContractUnchanged": true,
+  "finalValidatorSourceAndExtractedPassed": true,
+  "moduleOriginalAndCopiedBytesUnchanged": true,
+  "firstManifest": "5ebf7d8312180f05813b10ac184e4a7900ab28f25084992e290752afe106c73f",
+  "finalManifest": "0e8cfdf7b8218b9d8233d9ccbe41fe5d1f605351bb855ba7edc1edad86364876",
+  "packSHA256": "f32cdd13356b59163f28dad427e372146158bceda784721b464ecfa9f6f8f2c4",
+  "courseContractSHA256": "e20892b0bd3b0ee77bedb88eed059c7efd23e32d3211112fa910256fdb5808c1"
+}

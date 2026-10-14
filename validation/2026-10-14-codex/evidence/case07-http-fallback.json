@@ -1,0 +1,35 @@
+{
+  "health": {
+    "status": "ready",
+    "projectId": "existing-score",
+    "audioMode": "none",
+    "audio": {
+      "status": "disabled",
+      "target": null,
+      "error": null
+    },
+    "scoreServer": {
+      "performerPort": 53064,
+      "monitorPort": 53065,
+      "error": null
+    }
+  },
+  "performerUrl": "http://127.0.0.1:53064/",
+  "monitorUrl": "http://127.0.0.1:53065/",
+  "performerHTTP": 200,
+  "performerBytesPreserved": true,
+  "captionSTARTPreserved": true,
+  "labelAndConfigMatch": true,
+  "performerQR": 404,
+  "qr": {
+    "imagePath": "/tmp/pnds-161-workflow-results/evidence/case07-fallback-qr.png",
+    "bytes": 2699,
+    "decodedUrl": "http://127.0.0.1:53064/"
+  },
+  "childStopped": true,
+  "exit": {
+    "code": 0,
+    "signal": null
+  },
+  "serverOutput": ""
+}

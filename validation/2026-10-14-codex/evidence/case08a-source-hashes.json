@@ -1,0 +1,15 @@
+{
+  "label": "case08a-source-hashes",
+  "cwd": "/tmp/pnds-161-workflow-results",
+  "command": "node",
+  "args": [
+    "scripts/source-snapshot.mjs",
+    "pre-distribution"
+  ],
+  "startedAt": "2026-10-13T17:45:40.604Z",
+  "finishedAt": "2026-10-13T17:45:40.644Z",
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "Recorded source hashes: pre-distribution\n",
+  "stderr": ""
+}

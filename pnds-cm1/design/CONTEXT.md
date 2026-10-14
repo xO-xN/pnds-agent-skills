@@ -1,3 +1,5 @@
+> Historical design record / 历史设计记录: this describes the former course/telematic organization, not current general conversion policy. The current SKILL.md and installed App contract govern new work.
+
 # pnds-cm1
 
 将课堂「p5.js 乐谱 + SuperCollider + TouchOSC」三件套移植为本地网络演奏 PNDS 工程的 skill 的领域语言（Kenneth Fields 教授计算机音乐课程第一阶段）。本文件是设计期术语表；skill 运行期内容见 SKILL.md 与 reference/。姊妹 skill pnds-port（遥现多场地架构）有自己的术语表，两表不混用。

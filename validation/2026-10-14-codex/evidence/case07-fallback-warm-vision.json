@@ -1,0 +1,10 @@
+{
+  "command": "swift",
+  "args": [
+    "/private/tmp/pnds-161-workflow-results/qr-piece/tests/decode-qr.swift",
+    "/tmp/pnds-161-workflow-results/evidence/case07-fallback-warm-qr.png"
+  ],
+  "exit": 0,
+  "stdout": "http://127.0.0.1:53064/\n",
+  "stderr": ""
+}

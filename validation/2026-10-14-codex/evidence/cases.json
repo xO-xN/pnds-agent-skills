@@ -1,0 +1,120 @@
+{
+  "target": "PNDS App 1.6.1 DEVELOPMENT snapshot",
+  "nativeSkillInvocation": "unavailable; direct-read bundled capabilities",
+  "harness": "Codex collaboration subagent, inherited exact model unavailable",
+  "cases": [
+    {
+      "case": "01",
+      "skill": "pnds-create",
+      "requested": "new editable source, local None, no distribution",
+      "status": "source delivered; manual native/performance pending",
+      "report": "case01-create-new.md",
+      "output": "new-piece",
+      "commands": [
+        "case01-check",
+        "case01-self-contained-structure",
+        "case01-none-smoke",
+        "case01-none-smoke-authorized"
+      ]
+    },
+    {
+      "case": "02",
+      "skill": "pnds-create",
+      "requested": "existing caption task only",
+      "status": "completed",
+      "report": "case02-create-existing.md",
+      "output": "modified-piece",
+      "commands": [
+        "case02-check",
+        "case02-preservation"
+      ]
+    },
+    {
+      "case": "03",
+      "skill": "pnds-port",
+      "requested": "browser assessment only",
+      "status": "assessment delivered; actual author plan confirmation required before migration",
+      "report": "case03-port-assessment.md",
+      "commands": []
+    },
+    {
+      "case": "04",
+      "skill": "pnds-investigate",
+      "requested": "partial facts/gaps only",
+      "status": "report delivered; code unavailable",
+      "report": "case04-investigation.md",
+      "commands": []
+    },
+    {
+      "case": "05",
+      "skill": "pnds-assess",
+      "requested": "independent Mac eight-channel/gesture routes only",
+      "status": "assessment delivered; route/author decisions unresolved",
+      "report": "case05-independent-assessment.md",
+      "commands": []
+    },
+    {
+      "case": "06",
+      "skill": "pnds-runtime",
+      "requested": "audit only, no artistic edits",
+      "status": "audit delivered; loopback-only binding contract failed",
+      "report": "case06-runtime-audit.md",
+      "commands": [
+        "case06-static"
+      ]
+    },
+    {
+      "case": "07",
+      "skill": "pnds-modules",
+      "requested": "actual fixed QR resource wiring",
+      "status": "HTTP/Vision wiring passed; App/browser/phone pending",
+      "report": "case07-modules-qr.md",
+      "output": "qr-piece",
+      "commands": [
+        "case07-npm",
+        "case07-npm-authorized",
+        "case07-http-check",
+        "case07-production-deps"
+      ]
+    },
+    {
+      "case": "08A",
+      "skill": "pnds-validate",
+      "requested": "source-only plus explicit None smoke",
+      "status": "completed limited source checks; no ordinary bundle",
+      "report": "case08a-source-handoff.md",
+      "commands": [
+        "case08a-static",
+        "case08a-none-smoke",
+        "case08a-source-hashes"
+      ]
+    },
+    {
+      "case": "08B",
+      "skill": "pnds-validate",
+      "requested": "distinct explicit one-bundle distribution same saved source",
+      "status": "one bundle/hash/archive delivered; native install pending",
+      "report": "case08b-distribution.md",
+      "output": "distribution/Existing Score-0.4.3.pnds",
+      "commands": [
+        "case08b-pack",
+        "case08b-archive",
+        "case08b-unzip-test",
+        "case08b-extracted-static",
+        "case08b-final-source-static",
+        "case08b-final-extracted-static"
+      ]
+    },
+    {
+      "case": "09",
+      "skill": "pnds-cm1",
+      "requested": "course sufficiency/missing decisions only",
+      "status": "report delivered; full CM1 sufficiency/acceptance failed",
+      "report": "case09-cm1-sufficiency.md",
+      "commands": [
+        "case09-p5-syntax",
+        "case09-tosc"
+      ]
+    }
+  ]
+}

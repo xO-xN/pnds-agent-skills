@@ -1,0 +1,62 @@
+{
+  "providedBy": "parent /root and /root/external_skills; explicitly supplied reviewed snapshot, originals retained",
+  "at": "2026-10-13T17:42:41.865Z",
+  "skills": {
+    "pnds-validate": {
+      "source": "/tmp/pnds-161-skills-harness/portable-skills-reviewed/pnds-validate",
+      "workflowVersion": "0.2.0",
+      "hostProtocol": 1,
+      "manifestSHA256": "5ebf7d8312180f05813b10ac184e4a7900ab28f25084992e290752afe106c73f",
+      "files": {
+        "SKILL.md": "3e3dc38b5bdba93fbe872643d14973501c8a639d68eee4085cf1266a162c40ac",
+        "capabilities/adapt-runtime.md": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+        "capabilities/assess.md": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+        "capabilities/integrate-modules.md": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+        "capabilities/investigate.md": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+        "capabilities/validate-handoff.md": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+        "reference/module-guide.md": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+        "reference/platform-sources.md": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+        "reference/records.md": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+        "reference/tools.md": "34d0aa685623c7f9d21bf40982e7f2f2dd7a4c7f9fec109b16d39d03c682b607",
+        "tools/pack.mjs": "f32cdd13356b59163f28dad427e372146158bceda784721b464ecfa9f6f8f2c4",
+        "tools/platform-info.mjs": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+        "tools/project-files.mjs": "4d2bd5b7866975681aa45ad430dfc786a02bdfd13a44c192752f7ed857c60608",
+        "tools/smoke.mjs": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+        "tools/tosc-parser.mjs": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b"
+      }
+    },
+    "pnds-cm1": {
+      "source": "/tmp/pnds-161-skills-harness/portable-skills-reviewed/pnds-cm1",
+      "workflowVersion": "0.2.0",
+      "hostProtocol": 1,
+      "manifestSHA256": "dc5951b34953277ad473e75a20dedc2c9312579aaeccc725f60146df1ff626df",
+      "files": {
+        "SKILL.md": "a2a118c69b63d3ee6bc9d6c653b0d1557ec67a68d28889540d6a3850b838cead",
+        "agents/openai.yaml": "dbb089abd3c6bf2d667a8dbecb54626c7508ef22eb4ff976d043fafc40909b89",
+        "capabilities/adapt-runtime.md": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+        "capabilities/assess.md": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+        "capabilities/integrate-modules.md": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+        "capabilities/investigate.md": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+        "capabilities/validate-handoff.md": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+        "design/CONTEXT.md": "c61382c1ceed8a6adcc6250d2607b9d11ee9fa46ed2c80da0f9c0b40fb8e80d9",
+        "design/adr/0001-separate-local-skill.md": "0448b48abf8f242421b7e8c0cb6d4bdef09e2a740106765b891cc7131cd28908",
+        "reference/analysis.md": "328eeabe4aace7ab5981c1b23c574606b519dee14fd18d7393f6922cb798bd0b",
+        "reference/case-inarticulate-iii.md": "0dcb75a1e7fee65ed341fe964fe29814edb2cfb502c091bcc3cf0fb476d06a44",
+        "reference/conversion-playbook.md": "a474aa25fee5b39605808e9b59d9898ad764253d03b0b258c656718a7d6bed41",
+        "reference/input-validation.md": "7ea8a88b4251855a618cf9081035575f8a899694ace611f9195261d25d4a567d",
+        "reference/module-guide.md": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+        "reference/output-contract.md": "e20892b0bd3b0ee77bedb88eed059c7efd23e32d3211112fa910256fdb5808c1",
+        "reference/packaging.md": "2383684774ff5ced83e1c796e82c27c9f3e8da18d4751fd1545f1662779eb513",
+        "reference/platform-sources.md": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+        "reference/port-map-template.md": "ab28512844505262d05940ede4020d7aea25266c6387a35fd9078760d9a23e30",
+        "reference/records.md": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+        "reference/tools.md": "34d0aa685623c7f9d21bf40982e7f2f2dd7a4c7f9fec109b16d39d03c682b607",
+        "tools/pack.mjs": "f32cdd13356b59163f28dad427e372146158bceda784721b464ecfa9f6f8f2c4",
+        "tools/platform-info.mjs": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+        "tools/project-files.mjs": "4d2bd5b7866975681aa45ad430dfc786a02bdfd13a44c192752f7ed857c60608",
+        "tools/smoke.mjs": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+        "tools/tosc-parser.mjs": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b"
+      }
+    }
+  }
+}

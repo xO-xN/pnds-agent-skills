@@ -1,0 +1,1217 @@
+{
+  "recordedAt": "2026-10-13T17:34:23.702Z",
+  "harness": "Codex collaboration subagent; native Skill invocation unavailable, read self-contained linked resources",
+  "model": "inherited parent model; exact model ID unavailable",
+  "runtime": "v24.19.0",
+  "appVersion": "1.6.1",
+  "appStatus": "explicit development source snapshot, not released or installed",
+  "sourceSHA256": "ec1ec0a262dd714c266c314965f5e9cac03aba700e005dc665905903c89be4b1",
+  "raw": {
+    "existing-project": {
+      "docs/creator-handoff.md": "f7b434d75d577cf6d80cbfc805d9b58359178f908c782480b00e71af10d5d85d",
+      "docs/decisions.md": "7bacce2b3d88a3edef1ab322eef02bec21c31e236786cd90f8ebaa9bbcf12a64",
+      "docs/validation.md": "02ef46f12cec80ff14263570caecfd793bb51b0676f67f1ac36cbeeeaba17f71",
+      "manifest.json": "c9dd88c8abbb9d228ac55710dba16b3f9643a3847397850e99c31eb0fbe39e22",
+      "package.json": "3717788bffd7d59f76465e6501cea550968d97d125fccbcfaa60cb30413c1bfc",
+      "public/monitor.html": "76b7b990fcbd94fd558f4486b813c8f6c8705c6fd9311bd5eb3ce8f2c9d8cfdf",
+      "public/performer.html": "aed2a2c51c45838e5b1d03500963dc3423c878454e7e1322715e6df2fb5e6763",
+      "public/shared.js": "d9bca49f26b3d7e5fb7de15c66076a4e4a9ce5cab8d2e230c3dccf6822f9beb8",
+      "server.cjs": "7fd8a623f327a5e90bc2fca215136aa9c2183e9a9815785afef1616edd87bf40"
+    },
+    "browser-source": {
+      "README.md": "d708fd4432624a9ec7e65f5bebb1ed05cf19e3a25cefc4cd4d04df96ad1922ca",
+      "index.html": "4f763f3b08179de345e7875cce9f334768c599002a3d4b49b85b03d15ddc52a0"
+    },
+    "partial-source": {
+      "description.txt": "da8a497258462bcc37abb3d7997e4d135d2200aa29e76b07128b675031884046"
+    },
+    "cm1-source": {
+      "README.md": "330883f183436545b0a4520115620a1f26117dfae66477af69c82ca0c547d3dc",
+      "controls.tosc": "d41e36617282b89114e57adfa908af1b8f4eb163d978c5c1e70859e07a184c5f",
+      "sketch.js": "b2ca4998d1c8cf3a6bc35abb3b1749ad9e2552df6fc2428a34205ce27c25b3bd",
+      "tone.scd": "fdf120686033db446fcf26bbeba5aa57bd5e8853365af7a1bbcff94521f041c4"
+    }
+  },
+  "skills": {
+    "pnds-create": {
+      "workflowVersion": "0.2.0",
+      "hostProtocol": 1,
+      "manifestSHA256": "cf02202f06602d0848992f471649f8ffcd23f8b0a9f7c6823b612eef2b98f468",
+      "checks": [
+        {
+          "path": "SKILL.md",
+          "expected": "ee0fda8c961bbd25fec53ef9aff9fd1b4e0d046bac6ec1697624baad44a8d535",
+          "actual": "ee0fda8c961bbd25fec53ef9aff9fd1b4e0d046bac6ec1697624baad44a8d535",
+          "passed": true
+        },
+        {
+          "path": "capabilities/adapt-runtime.md",
+          "expected": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "actual": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "passed": true
+        },
+        {
+          "path": "capabilities/assess.md",
+          "expected": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "actual": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "passed": true
+        },
+        {
+          "path": "capabilities/integrate-modules.md",
+          "expected": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "actual": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "passed": true
+        },
+        {
+          "path": "capabilities/investigate.md",
+          "expected": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "actual": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "passed": true
+        },
+        {
+          "path": "capabilities/validate-handoff.md",
+          "expected": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "actual": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "passed": true
+        },
+        {
+          "path": "reference/module-guide.md",
+          "expected": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "actual": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "passed": true
+        },
+        {
+          "path": "reference/platform-sources.md",
+          "expected": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "actual": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "passed": true
+        },
+        {
+          "path": "reference/records.md",
+          "expected": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "actual": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "passed": true
+        },
+        {
+          "path": "reference/tools.md",
+          "expected": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "actual": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "passed": true
+        },
+        {
+          "path": "tools/pack.mjs",
+          "expected": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "actual": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "passed": true
+        },
+        {
+          "path": "tools/platform-info.mjs",
+          "expected": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "actual": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "passed": true
+        },
+        {
+          "path": "tools/project-files.mjs",
+          "expected": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "actual": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "passed": true
+        },
+        {
+          "path": "tools/smoke.mjs",
+          "expected": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "actual": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "passed": true
+        },
+        {
+          "path": "tools/tosc-parser.mjs",
+          "expected": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "actual": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "passed": true
+        }
+      ]
+    },
+    "pnds-port": {
+      "workflowVersion": "0.2.0",
+      "hostProtocol": 1,
+      "manifestSHA256": "96b90af9141d62e55587a9eba1063e60e6f33c68c381d45f5f353c2943f6ec4b",
+      "checks": [
+        {
+          "path": "SKILL.md",
+          "expected": "ea2aa3e2b6f637300c1be4932882fb0361d5583bdd908e641106e51d2680dfe4",
+          "actual": "ea2aa3e2b6f637300c1be4932882fb0361d5583bdd908e641106e51d2680dfe4",
+          "passed": true
+        },
+        {
+          "path": "capabilities/adapt-runtime.md",
+          "expected": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "actual": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "passed": true
+        },
+        {
+          "path": "capabilities/assess.md",
+          "expected": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "actual": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "passed": true
+        },
+        {
+          "path": "capabilities/integrate-modules.md",
+          "expected": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "actual": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "passed": true
+        },
+        {
+          "path": "capabilities/investigate.md",
+          "expected": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "actual": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "passed": true
+        },
+        {
+          "path": "capabilities/validate-handoff.md",
+          "expected": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "actual": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "passed": true
+        },
+        {
+          "path": "design/CONTEXT.md",
+          "expected": "16eca0cf377c982331f4a2e1cb5f4fd45dca59aa7287f8433adfea4d11536fce",
+          "actual": "16eca0cf377c982331f4a2e1cb5f4fd45dca59aa7287f8433adfea4d11536fce",
+          "passed": true
+        },
+        {
+          "path": "design/adr/0001-telematic-multi-endpoint.md",
+          "expected": "4edc7ee68c792fec57ac61ffa23eef80fd8c06e05241474ccf686448936b578b",
+          "actual": "4edc7ee68c792fec57ac61ffa23eef80fd8c06e05241474ccf686448936b578b",
+          "passed": true
+        },
+        {
+          "path": "design/adr/0002-authority-model-per-work.md",
+          "expected": "37d1c57eb08090a9eaeb96a78c2c190076353325ffd03430591abe4a183ffca2",
+          "actual": "37d1c57eb08090a9eaeb96a78c2c190076353325ffd03430591abe4a183ffca2",
+          "passed": true
+        },
+        {
+          "path": "design/adr/0003-clock-drift-tolerance.md",
+          "expected": "fb2959a1bb4d394f6d873f7dbab0d104bddc914669c24b0fe2ab89d4f00a938f",
+          "actual": "fb2959a1bb4d394f6d873f7dbab0d104bddc914669c24b0fe2ab89d4f00a938f",
+          "passed": true
+        },
+        {
+          "path": "reference/analysis.md",
+          "expected": "360f286eac129324ccd86b3d99fe4245313bf96e8a39b79eac498184e2476a43",
+          "actual": "360f286eac129324ccd86b3d99fe4245313bf96e8a39b79eac498184e2476a43",
+          "passed": true
+        },
+        {
+          "path": "reference/case-co-here.md",
+          "expected": "287488274f633c4bb45e8bb3094f6655faf8d7b395e6d2c9f2e178f500463170",
+          "actual": "287488274f633c4bb45e8bb3094f6655faf8d7b395e6d2c9f2e178f500463170",
+          "passed": true
+        },
+        {
+          "path": "reference/conversion-playbook.md",
+          "expected": "6736f8c02eee63090af2d87c0790ab2e44aee005d6897e852ab0da50d82974d0",
+          "actual": "6736f8c02eee63090af2d87c0790ab2e44aee005d6897e852ab0da50d82974d0",
+          "passed": true
+        },
+        {
+          "path": "reference/input-validation.md",
+          "expected": "d36091026606508c3cbfd4b4828308d9ec6eb303892055452a2185b1e19499e2",
+          "actual": "d36091026606508c3cbfd4b4828308d9ec6eb303892055452a2185b1e19499e2",
+          "passed": true
+        },
+        {
+          "path": "reference/legacy-scope.md",
+          "expected": "6e5b4104aab341ad5d733228b5cfeebfe797b93866f558d34742691808c590a3",
+          "actual": "6e5b4104aab341ad5d733228b5cfeebfe797b93866f558d34742691808c590a3",
+          "passed": true
+        },
+        {
+          "path": "reference/module-guide.md",
+          "expected": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "actual": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "passed": true
+        },
+        {
+          "path": "reference/packaging.md",
+          "expected": "9d6d1950ad919959b9ddbf7b27f0e9387cf031f4d390095846ec8c6be1e49be4",
+          "actual": "9d6d1950ad919959b9ddbf7b27f0e9387cf031f4d390095846ec8c6be1e49be4",
+          "passed": true
+        },
+        {
+          "path": "reference/platform-sources.md",
+          "expected": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "actual": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "passed": true
+        },
+        {
+          "path": "reference/port-map-template.md",
+          "expected": "a2c86931557214cc1f0749dcf12f255d9cbaff80ada1103f8fbd417d25e000c7",
+          "actual": "a2c86931557214cc1f0749dcf12f255d9cbaff80ada1103f8fbd417d25e000c7",
+          "passed": true
+        },
+        {
+          "path": "reference/records.md",
+          "expected": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "actual": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "passed": true
+        },
+        {
+          "path": "reference/tools.md",
+          "expected": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "actual": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "passed": true
+        },
+        {
+          "path": "tools/pack.mjs",
+          "expected": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "actual": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "passed": true
+        },
+        {
+          "path": "tools/platform-info.mjs",
+          "expected": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "actual": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "passed": true
+        },
+        {
+          "path": "tools/project-files.mjs",
+          "expected": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "actual": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "passed": true
+        },
+        {
+          "path": "tools/smoke.mjs",
+          "expected": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "actual": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "passed": true
+        },
+        {
+          "path": "tools/tosc-parser.mjs",
+          "expected": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "actual": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "passed": true
+        }
+      ]
+    },
+    "pnds-investigate": {
+      "workflowVersion": "0.2.0",
+      "hostProtocol": 1,
+      "manifestSHA256": "9c25cda7a25fe01a9550aefe92fb74fc6766632c32e2f5dedf68392c2783362e",
+      "checks": [
+        {
+          "path": "SKILL.md",
+          "expected": "a9d464ac34f8d1bba0494f6d868368363ac3b4b7f5b3b17300ca925b1066636b",
+          "actual": "a9d464ac34f8d1bba0494f6d868368363ac3b4b7f5b3b17300ca925b1066636b",
+          "passed": true
+        },
+        {
+          "path": "capabilities/adapt-runtime.md",
+          "expected": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "actual": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "passed": true
+        },
+        {
+          "path": "capabilities/assess.md",
+          "expected": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "actual": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "passed": true
+        },
+        {
+          "path": "capabilities/integrate-modules.md",
+          "expected": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "actual": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "passed": true
+        },
+        {
+          "path": "capabilities/investigate.md",
+          "expected": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "actual": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "passed": true
+        },
+        {
+          "path": "capabilities/validate-handoff.md",
+          "expected": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "actual": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "passed": true
+        },
+        {
+          "path": "reference/module-guide.md",
+          "expected": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "actual": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "passed": true
+        },
+        {
+          "path": "reference/platform-sources.md",
+          "expected": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "actual": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "passed": true
+        },
+        {
+          "path": "reference/records.md",
+          "expected": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "actual": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "passed": true
+        },
+        {
+          "path": "reference/tools.md",
+          "expected": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "actual": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "passed": true
+        },
+        {
+          "path": "tools/pack.mjs",
+          "expected": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "actual": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "passed": true
+        },
+        {
+          "path": "tools/platform-info.mjs",
+          "expected": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "actual": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "passed": true
+        },
+        {
+          "path": "tools/project-files.mjs",
+          "expected": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "actual": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "passed": true
+        },
+        {
+          "path": "tools/smoke.mjs",
+          "expected": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "actual": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "passed": true
+        },
+        {
+          "path": "tools/tosc-parser.mjs",
+          "expected": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "actual": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "passed": true
+        }
+      ]
+    },
+    "pnds-assess": {
+      "workflowVersion": "0.2.0",
+      "hostProtocol": 1,
+      "manifestSHA256": "6ced6d102cc1d61be072c30e42c6c449f6bf587149b43bb633b551f97625c8e4",
+      "checks": [
+        {
+          "path": "SKILL.md",
+          "expected": "a7b7a480009c22bc440b4c4b67c2c37f6951aafb3cf0b1204c1b179c18140140",
+          "actual": "a7b7a480009c22bc440b4c4b67c2c37f6951aafb3cf0b1204c1b179c18140140",
+          "passed": true
+        },
+        {
+          "path": "capabilities/adapt-runtime.md",
+          "expected": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "actual": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "passed": true
+        },
+        {
+          "path": "capabilities/assess.md",
+          "expected": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "actual": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "passed": true
+        },
+        {
+          "path": "capabilities/integrate-modules.md",
+          "expected": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "actual": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "passed": true
+        },
+        {
+          "path": "capabilities/investigate.md",
+          "expected": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "actual": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "passed": true
+        },
+        {
+          "path": "capabilities/validate-handoff.md",
+          "expected": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "actual": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "passed": true
+        },
+        {
+          "path": "reference/module-guide.md",
+          "expected": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "actual": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "passed": true
+        },
+        {
+          "path": "reference/platform-sources.md",
+          "expected": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "actual": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "passed": true
+        },
+        {
+          "path": "reference/records.md",
+          "expected": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "actual": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "passed": true
+        },
+        {
+          "path": "reference/tools.md",
+          "expected": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "actual": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "passed": true
+        },
+        {
+          "path": "tools/pack.mjs",
+          "expected": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "actual": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "passed": true
+        },
+        {
+          "path": "tools/platform-info.mjs",
+          "expected": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "actual": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "passed": true
+        },
+        {
+          "path": "tools/project-files.mjs",
+          "expected": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "actual": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "passed": true
+        },
+        {
+          "path": "tools/smoke.mjs",
+          "expected": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "actual": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "passed": true
+        },
+        {
+          "path": "tools/tosc-parser.mjs",
+          "expected": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "actual": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "passed": true
+        }
+      ]
+    },
+    "pnds-runtime": {
+      "workflowVersion": "0.2.0",
+      "hostProtocol": 1,
+      "manifestSHA256": "1a81c90d61dc6bf9320ec1e2a5795e8931697366598070f8a5519b80859dcad8",
+      "checks": [
+        {
+          "path": "SKILL.md",
+          "expected": "c4fe195f0cc61c03889bc3ddf6e4ad773f6e0e146d6eed6d6da261e6767c3e1e",
+          "actual": "c4fe195f0cc61c03889bc3ddf6e4ad773f6e0e146d6eed6d6da261e6767c3e1e",
+          "passed": true
+        },
+        {
+          "path": "capabilities/adapt-runtime.md",
+          "expected": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "actual": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "passed": true
+        },
+        {
+          "path": "capabilities/assess.md",
+          "expected": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "actual": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "passed": true
+        },
+        {
+          "path": "capabilities/integrate-modules.md",
+          "expected": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "actual": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "passed": true
+        },
+        {
+          "path": "capabilities/investigate.md",
+          "expected": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "actual": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "passed": true
+        },
+        {
+          "path": "capabilities/validate-handoff.md",
+          "expected": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "actual": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "passed": true
+        },
+        {
+          "path": "reference/module-guide.md",
+          "expected": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "actual": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "passed": true
+        },
+        {
+          "path": "reference/platform-sources.md",
+          "expected": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "actual": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "passed": true
+        },
+        {
+          "path": "reference/records.md",
+          "expected": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "actual": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "passed": true
+        },
+        {
+          "path": "reference/tools.md",
+          "expected": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "actual": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "passed": true
+        },
+        {
+          "path": "tools/pack.mjs",
+          "expected": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "actual": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "passed": true
+        },
+        {
+          "path": "tools/platform-info.mjs",
+          "expected": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "actual": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "passed": true
+        },
+        {
+          "path": "tools/project-files.mjs",
+          "expected": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "actual": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "passed": true
+        },
+        {
+          "path": "tools/smoke.mjs",
+          "expected": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "actual": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "passed": true
+        },
+        {
+          "path": "tools/tosc-parser.mjs",
+          "expected": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "actual": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "passed": true
+        }
+      ]
+    },
+    "pnds-modules": {
+      "workflowVersion": "0.2.0",
+      "hostProtocol": 1,
+      "manifestSHA256": "ff441dbefcda3f8d747926d5c6489db9afbd37b4b9a86eee9a75eaa716a25140",
+      "checks": [
+        {
+          "path": "SKILL.md",
+          "expected": "f52523512989a40607562e9ad18c7414d316783be9de35552bfb9d2d0b5b6a29",
+          "actual": "f52523512989a40607562e9ad18c7414d316783be9de35552bfb9d2d0b5b6a29",
+          "passed": true
+        },
+        {
+          "path": "capabilities/adapt-runtime.md",
+          "expected": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "actual": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "passed": true
+        },
+        {
+          "path": "capabilities/assess.md",
+          "expected": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "actual": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "passed": true
+        },
+        {
+          "path": "capabilities/integrate-modules.md",
+          "expected": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "actual": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "passed": true
+        },
+        {
+          "path": "capabilities/investigate.md",
+          "expected": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "actual": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "passed": true
+        },
+        {
+          "path": "capabilities/validate-handoff.md",
+          "expected": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "actual": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "passed": true
+        },
+        {
+          "path": "reference/module-guide.md",
+          "expected": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "actual": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "passed": true
+        },
+        {
+          "path": "reference/platform-sources.md",
+          "expected": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "actual": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "passed": true
+        },
+        {
+          "path": "reference/records.md",
+          "expected": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "actual": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "passed": true
+        },
+        {
+          "path": "reference/tools.md",
+          "expected": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "actual": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "passed": true
+        },
+        {
+          "path": "tools/pack.mjs",
+          "expected": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "actual": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "passed": true
+        },
+        {
+          "path": "tools/platform-info.mjs",
+          "expected": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "actual": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "passed": true
+        },
+        {
+          "path": "tools/project-files.mjs",
+          "expected": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "actual": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "passed": true
+        },
+        {
+          "path": "tools/smoke.mjs",
+          "expected": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "actual": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "passed": true
+        },
+        {
+          "path": "tools/tosc-parser.mjs",
+          "expected": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "actual": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "passed": true
+        }
+      ]
+    },
+    "pnds-validate": {
+      "workflowVersion": "0.2.0",
+      "hostProtocol": 1,
+      "manifestSHA256": "bb4fd994bda4c66e3f61ab244e15d683b127c231340cd753416bf334c0e9aa9e",
+      "checks": [
+        {
+          "path": "SKILL.md",
+          "expected": "3e3dc38b5bdba93fbe872643d14973501c8a639d68eee4085cf1266a162c40ac",
+          "actual": "3e3dc38b5bdba93fbe872643d14973501c8a639d68eee4085cf1266a162c40ac",
+          "passed": true
+        },
+        {
+          "path": "capabilities/adapt-runtime.md",
+          "expected": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "actual": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "passed": true
+        },
+        {
+          "path": "capabilities/assess.md",
+          "expected": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "actual": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "passed": true
+        },
+        {
+          "path": "capabilities/integrate-modules.md",
+          "expected": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "actual": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "passed": true
+        },
+        {
+          "path": "capabilities/investigate.md",
+          "expected": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "actual": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "passed": true
+        },
+        {
+          "path": "capabilities/validate-handoff.md",
+          "expected": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "actual": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "passed": true
+        },
+        {
+          "path": "reference/module-guide.md",
+          "expected": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "actual": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "passed": true
+        },
+        {
+          "path": "reference/platform-sources.md",
+          "expected": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "actual": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "passed": true
+        },
+        {
+          "path": "reference/records.md",
+          "expected": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "actual": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "passed": true
+        },
+        {
+          "path": "reference/tools.md",
+          "expected": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "actual": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "passed": true
+        },
+        {
+          "path": "tools/pack.mjs",
+          "expected": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "actual": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "passed": true
+        },
+        {
+          "path": "tools/platform-info.mjs",
+          "expected": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "actual": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "passed": true
+        },
+        {
+          "path": "tools/project-files.mjs",
+          "expected": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "actual": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "passed": true
+        },
+        {
+          "path": "tools/smoke.mjs",
+          "expected": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "actual": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "passed": true
+        },
+        {
+          "path": "tools/tosc-parser.mjs",
+          "expected": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "actual": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "passed": true
+        }
+      ]
+    },
+    "pnds-cm1": {
+      "workflowVersion": "0.2.0",
+      "hostProtocol": 1,
+      "manifestSHA256": "f93cc6c73a2d3340005ea3530e2f3ad316e57560248f23b6505cc6a681e3c166",
+      "checks": [
+        {
+          "path": "SKILL.md",
+          "expected": "a2a118c69b63d3ee6bc9d6c653b0d1557ec67a68d28889540d6a3850b838cead",
+          "actual": "a2a118c69b63d3ee6bc9d6c653b0d1557ec67a68d28889540d6a3850b838cead",
+          "passed": true
+        },
+        {
+          "path": "agents/openai.yaml",
+          "expected": "dbb089abd3c6bf2d667a8dbecb54626c7508ef22eb4ff976d043fafc40909b89",
+          "actual": "dbb089abd3c6bf2d667a8dbecb54626c7508ef22eb4ff976d043fafc40909b89",
+          "passed": true
+        },
+        {
+          "path": "capabilities/adapt-runtime.md",
+          "expected": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "actual": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "passed": true
+        },
+        {
+          "path": "capabilities/assess.md",
+          "expected": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "actual": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "passed": true
+        },
+        {
+          "path": "capabilities/integrate-modules.md",
+          "expected": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "actual": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "passed": true
+        },
+        {
+          "path": "capabilities/investigate.md",
+          "expected": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "actual": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "passed": true
+        },
+        {
+          "path": "capabilities/validate-handoff.md",
+          "expected": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "actual": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "passed": true
+        },
+        {
+          "path": "design/CONTEXT.md",
+          "expected": "c61382c1ceed8a6adcc6250d2607b9d11ee9fa46ed2c80da0f9c0b40fb8e80d9",
+          "actual": "c61382c1ceed8a6adcc6250d2607b9d11ee9fa46ed2c80da0f9c0b40fb8e80d9",
+          "passed": true
+        },
+        {
+          "path": "design/adr/0001-separate-local-skill.md",
+          "expected": "0448b48abf8f242421b7e8c0cb6d4bdef09e2a740106765b891cc7131cd28908",
+          "actual": "0448b48abf8f242421b7e8c0cb6d4bdef09e2a740106765b891cc7131cd28908",
+          "passed": true
+        },
+        {
+          "path": "reference/analysis.md",
+          "expected": "328eeabe4aace7ab5981c1b23c574606b519dee14fd18d7393f6922cb798bd0b",
+          "actual": "328eeabe4aace7ab5981c1b23c574606b519dee14fd18d7393f6922cb798bd0b",
+          "passed": true
+        },
+        {
+          "path": "reference/case-inarticulate-iii.md",
+          "expected": "0dcb75a1e7fee65ed341fe964fe29814edb2cfb502c091bcc3cf0fb476d06a44",
+          "actual": "0dcb75a1e7fee65ed341fe964fe29814edb2cfb502c091bcc3cf0fb476d06a44",
+          "passed": true
+        },
+        {
+          "path": "reference/conversion-playbook.md",
+          "expected": "a474aa25fee5b39605808e9b59d9898ad764253d03b0b258c656718a7d6bed41",
+          "actual": "a474aa25fee5b39605808e9b59d9898ad764253d03b0b258c656718a7d6bed41",
+          "passed": true
+        },
+        {
+          "path": "reference/input-validation.md",
+          "expected": "7ea8a88b4251855a618cf9081035575f8a899694ace611f9195261d25d4a567d",
+          "actual": "7ea8a88b4251855a618cf9081035575f8a899694ace611f9195261d25d4a567d",
+          "passed": true
+        },
+        {
+          "path": "reference/module-guide.md",
+          "expected": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "actual": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "passed": true
+        },
+        {
+          "path": "reference/output-contract.md",
+          "expected": "84cb5959965fcdc86e2fb403cd4bc84a19898671e221d2202240258037c3205a",
+          "actual": "84cb5959965fcdc86e2fb403cd4bc84a19898671e221d2202240258037c3205a",
+          "passed": true
+        },
+        {
+          "path": "reference/packaging.md",
+          "expected": "2383684774ff5ced83e1c796e82c27c9f3e8da18d4751fd1545f1662779eb513",
+          "actual": "2383684774ff5ced83e1c796e82c27c9f3e8da18d4751fd1545f1662779eb513",
+          "passed": true
+        },
+        {
+          "path": "reference/platform-sources.md",
+          "expected": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "actual": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "passed": true
+        },
+        {
+          "path": "reference/port-map-template.md",
+          "expected": "ab28512844505262d05940ede4020d7aea25266c6387a35fd9078760d9a23e30",
+          "actual": "ab28512844505262d05940ede4020d7aea25266c6387a35fd9078760d9a23e30",
+          "passed": true
+        },
+        {
+          "path": "reference/records.md",
+          "expected": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "actual": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "passed": true
+        },
+        {
+          "path": "reference/tools.md",
+          "expected": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "actual": "64643659519d312b9a85b727b3ecc46278d111292d5bc197eee7b0e21c0b4f6d",
+          "passed": true
+        },
+        {
+          "path": "tools/pack.mjs",
+          "expected": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "actual": "9474a9b2953ef515183ed739b8b38719a3908cc9a2bca949ee4ad4db2871d7cb",
+          "passed": true
+        },
+        {
+          "path": "tools/platform-info.mjs",
+          "expected": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "actual": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "passed": true
+        },
+        {
+          "path": "tools/project-files.mjs",
+          "expected": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "actual": "b69ad301c0107b6685432338a6a007b4aeccb81ee178b75e1f4944786bd49c28",
+          "passed": true
+        },
+        {
+          "path": "tools/smoke.mjs",
+          "expected": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "actual": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "passed": true
+        },
+        {
+          "path": "tools/tosc-parser.mjs",
+          "expected": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "actual": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b",
+          "passed": true
+        }
+      ]
+    }
+  },
+  "corpusChecks": [
+    {
+      "path": "zh-CN/modules/players.md",
+      "expected": "07a7c7123296231ae1a488292d3c1eeb9ed1415ef6fc688b6e752e6d2d338e9b",
+      "actual": "07a7c7123296231ae1a488292d3c1eeb9ed1415ef6fc688b6e752e6d2d338e9b",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/modules/locale-follow.md",
+      "expected": "2b8bca2ac1fd24f6a461ff08f04c4e8de33e66bad4283e5a97665c51a7efeb56",
+      "actual": "2b8bca2ac1fd24f6a461ff08f04c4e8de33e66bad4283e5a97665c51a7efeb56",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/modules/qr.md",
+      "expected": "d35f190925bcf34eb46f02bebe8545b6c1752b0945ebb6bfda7cbb1710ce3fe4",
+      "actual": "d35f190925bcf34eb46f02bebe8545b6c1752b0945ebb6bfda7cbb1710ce3fe4",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/modules/theme-follow.md",
+      "expected": "c8a45c697bc7b272f6713fb7566f2ca43d6c54f8775f1340e705af7a9a33c26e",
+      "actual": "c8a45c697bc7b272f6713fb7566f2ca43d6c54f8775f1340e705af7a9a33c26e",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/modules/monitor-state.md",
+      "expected": "2e93a740202d412c28f6cff843f0421927b498baaff566e68d012ab8a33d54f6",
+      "actual": "2e93a740202d412c28f6cff843f0421927b498baaff566e68d012ab8a33d54f6",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/modules/audio.md",
+      "expected": "7dd63960c97d77c8ee12b02cd191dc2b2966911aa2145064d1706559b43864ae",
+      "actual": "7dd63960c97d77c8ee12b02cd191dc2b2966911aa2145064d1706559b43864ae",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/modules/README.md",
+      "expected": "84c8bc9b74cbf9c9d45bc0496dbec90e9cff1544212aae50dd7006aa862226c5",
+      "actual": "84c8bc9b74cbf9c9d45bc0496dbec90e9cff1544212aae50dd7006aa862226c5",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/modules/projection-surface.md",
+      "expected": "c05c9aeb474d112ea744b8f45445e67fc89723285a778977cd42ab6645d31e56",
+      "actual": "c05c9aeb474d112ea744b8f45445e67fc89723285a778977cd42ab6645d31e56",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/modules/hub.md",
+      "expected": "e45607a7b25ccbe3f3cacd9bdf45b71809c76d34952b65364ebf7504ef11997f",
+      "actual": "e45607a7b25ccbe3f3cacd9bdf45b71809c76d34952b65364ebf7504ef11997f",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/network.md",
+      "expected": "5a897380b8a7391d074b00a9b6b2f6522874a9183db897cd21d1080d7902aa7c",
+      "actual": "5a897380b8a7391d074b00a9b6b2f6522874a9183db897cd21d1080d7902aa7c",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/structure.md",
+      "expected": "7ba5969c5d2c9feedae7ff269d5af6d7f351941dc8bcfee17c299db0106eeab4",
+      "actual": "7ba5969c5d2c9feedae7ff269d5af6d7f351941dc8bcfee17c299db0106eeab4",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/runtime-contract.md",
+      "expected": "f373901fc8f29993ac4f4c57d39cfde9868abbead52b080c44171b84906bf2d7",
+      "actual": "f373901fc8f29993ac4f4c57d39cfde9868abbead52b080c44171b84906bf2d7",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/audio-modes.md",
+      "expected": "66b2c2e9eb603f933cbefbcf8656b777e59f2399dfc7687dc8a55f59b5f7f830",
+      "actual": "66b2c2e9eb603f933cbefbcf8656b777e59f2399dfc7687dc8a55f59b5f7f830",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/p5js.md",
+      "expected": "ac61d428cbc5f3fb61d2a13113657358506f514a2e18aa1e7f662cb6ce24572b",
+      "actual": "ac61d428cbc5f3fb61d2a13113657358506f514a2e18aa1e7f662cb6ce24572b",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/README.md",
+      "expected": "ce039be2aefca1533226c4a9d441c364b5618cbaee8c13664a589d2a45dc9f4f",
+      "actual": "ce039be2aefca1533226c4a9d441c364b5618cbaee8c13664a589d2a45dc9f4f",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/https.md",
+      "expected": "20560e31da18d165f279efe6589a6b3d10ef161d3c83c9f9591e3e9bcef5fd87",
+      "actual": "20560e31da18d165f279efe6589a6b3d10ef161d3c83c9f9591e3e9bcef5fd87",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/supercollider.md",
+      "expected": "e4d235409404b78207112a2b34f303e9593be9bbf62848acb36fa1612b13714d",
+      "actual": "e4d235409404b78207112a2b34f303e9593be9bbf62848acb36fa1612b13714d",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/manifest.md",
+      "expected": "550c20aeaf2ff1f564f9a233a6addf66c5bd3fa629590a2e13b95e5444cc7e6d",
+      "actual": "550c20aeaf2ff1f564f9a233a6addf66c5bd3fa629590a2e13b95e5444cc7e6d",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/dns.md",
+      "expected": "c94d385287d488d3062ad50dc1d210e27c007838f44b02261d44870b387010aa",
+      "actual": "c94d385287d488d3062ad50dc1d210e27c007838f44b02261d44870b387010aa",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/osc.md",
+      "expected": "f0e707e2cd63854558b65e7137dd61cd3aa543baf9e948c2e6216bd11048fa35",
+      "actual": "f0e707e2cd63854558b65e7137dd61cd3aa543baf9e948c2e6216bd11048fa35",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/page-interaction.md",
+      "expected": "b99f7c1db1ff350599b7bba1f96c40a49ab77fce1694f4955bacfca6cbfccbb6",
+      "actual": "b99f7c1db1ff350599b7bba1f96c40a49ab77fce1694f4955bacfca6cbfccbb6",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/digital-score.md",
+      "expected": "86361deddb65d25f1fb435bed53b4ca4c80b81f6bb1cc1c8111e3869791ef726",
+      "actual": "86361deddb65d25f1fb435bed53b4ca4c80b81f6bb1cc1c8111e3869791ef726",
+      "passed": true
+    },
+    {
+      "path": "zh-CN/reference/pnds-bundle.md",
+      "expected": "c8fffce174fcca048e05176f523c094786b8550a5c75f3b34c9b048a5afa7d25",
+      "actual": "c8fffce174fcca048e05176f523c094786b8550a5c75f3b34c9b048a5afa7d25",
+      "passed": true
+    },
+    {
+      "path": "en/modules/players.md",
+      "expected": "8eb57c5b9fba4556e28cbd90821455c6417dd6a2ece99e980936da19252fd972",
+      "actual": "8eb57c5b9fba4556e28cbd90821455c6417dd6a2ece99e980936da19252fd972",
+      "passed": true
+    },
+    {
+      "path": "en/modules/locale-follow.md",
+      "expected": "0f87bbe845458b5b9f9829676c4fc66bb443cac90c021525a2941f5adc238571",
+      "actual": "0f87bbe845458b5b9f9829676c4fc66bb443cac90c021525a2941f5adc238571",
+      "passed": true
+    },
+    {
+      "path": "en/modules/qr.md",
+      "expected": "45aedbfcf54bf42b690b25d08e5d52ae997a6b72a204bd25867f02bd1f0bed81",
+      "actual": "45aedbfcf54bf42b690b25d08e5d52ae997a6b72a204bd25867f02bd1f0bed81",
+      "passed": true
+    },
+    {
+      "path": "en/modules/theme-follow.md",
+      "expected": "3cfc61997cbb0e4215bad121949206fccbb063a97cb6f255bef39a3157ab34ed",
+      "actual": "3cfc61997cbb0e4215bad121949206fccbb063a97cb6f255bef39a3157ab34ed",
+      "passed": true
+    },
+    {
+      "path": "en/modules/monitor-state.md",
+      "expected": "f2777de53a283aee077246f79b68e9e942fe3b297f8b58982ce63af3fcfdc7cf",
+      "actual": "f2777de53a283aee077246f79b68e9e942fe3b297f8b58982ce63af3fcfdc7cf",
+      "passed": true
+    },
+    {
+      "path": "en/modules/audio.md",
+      "expected": "b3c8fc5004258c3d5cecb789e79ef773513c4c76b7c26e38234390b52a39c7ef",
+      "actual": "b3c8fc5004258c3d5cecb789e79ef773513c4c76b7c26e38234390b52a39c7ef",
+      "passed": true
+    },
+    {
+      "path": "en/modules/README.md",
+      "expected": "f7c2af1c5b1877fff3653d1e56617f39e509be6ecd028f70a9c587915fd0a7f2",
+      "actual": "f7c2af1c5b1877fff3653d1e56617f39e509be6ecd028f70a9c587915fd0a7f2",
+      "passed": true
+    },
+    {
+      "path": "en/modules/projection-surface.md",
+      "expected": "9da58785acd1dea1e212e0e234af745190bb45596eaf09d72b76957d477d144d",
+      "actual": "9da58785acd1dea1e212e0e234af745190bb45596eaf09d72b76957d477d144d",
+      "passed": true
+    },
+    {
+      "path": "en/modules/hub.md",
+      "expected": "0912bffb5ecd739eca58a90b4effd4ff062b3053053e64b2c50d0133dfe4304d",
+      "actual": "0912bffb5ecd739eca58a90b4effd4ff062b3053053e64b2c50d0133dfe4304d",
+      "passed": true
+    },
+    {
+      "path": "en/reference/network.md",
+      "expected": "79d7ae69da40f686ee37018403959b7d455a5c8ed9a0428179e1cebe9f319631",
+      "actual": "79d7ae69da40f686ee37018403959b7d455a5c8ed9a0428179e1cebe9f319631",
+      "passed": true
+    },
+    {
+      "path": "en/reference/structure.md",
+      "expected": "ae448bbecfc6f10fe3413bb676ef83472c1953750c678a7b58e2a19d7273d021",
+      "actual": "ae448bbecfc6f10fe3413bb676ef83472c1953750c678a7b58e2a19d7273d021",
+      "passed": true
+    },
+    {
+      "path": "en/reference/runtime-contract.md",
+      "expected": "cec1f335a141a4ee96b5293198b1e79a01aa94ac38f0299082cea6f5a29644a4",
+      "actual": "cec1f335a141a4ee96b5293198b1e79a01aa94ac38f0299082cea6f5a29644a4",
+      "passed": true
+    },
+    {
+      "path": "en/reference/audio-modes.md",
+      "expected": "65ce1e9a4e3025631e8f84452613b7a0484a0b086a8a85f46731dc336bc9f2cc",
+      "actual": "65ce1e9a4e3025631e8f84452613b7a0484a0b086a8a85f46731dc336bc9f2cc",
+      "passed": true
+    },
+    {
+      "path": "en/reference/p5js.md",
+      "expected": "014a6a7072556bfa018ec098e0ee61e190883181835bb93231874bc71b9bd689",
+      "actual": "014a6a7072556bfa018ec098e0ee61e190883181835bb93231874bc71b9bd689",
+      "passed": true
+    },
+    {
+      "path": "en/reference/README.md",
+      "expected": "63786407a5588033fa8962e6c21e354def4c7f81b485f1798630e029cd7c91a2",
+      "actual": "63786407a5588033fa8962e6c21e354def4c7f81b485f1798630e029cd7c91a2",
+      "passed": true
+    },
+    {
+      "path": "en/reference/https.md",
+      "expected": "bb68cd36d853d27898ba3c1633392856663a2bb41c4405f2e6425db55cf5507f",
+      "actual": "bb68cd36d853d27898ba3c1633392856663a2bb41c4405f2e6425db55cf5507f",
+      "passed": true
+    },
+    {
+      "path": "en/reference/supercollider.md",
+      "expected": "370f36752103e8bba7ff4c54e24aab89b37416b93c0fa07cc2074be687c86206",
+      "actual": "370f36752103e8bba7ff4c54e24aab89b37416b93c0fa07cc2074be687c86206",
+      "passed": true
+    },
+    {
+      "path": "en/reference/manifest.md",
+      "expected": "e6df7a19980f625b02223d19eb73bb80acbebd9d5d0d85c9cbbdb7691cfb8df2",
+      "actual": "e6df7a19980f625b02223d19eb73bb80acbebd9d5d0d85c9cbbdb7691cfb8df2",
+      "passed": true
+    },
+    {
+      "path": "en/reference/dns.md",
+      "expected": "2b565ce49e067cd8fe1a5b98a16dc0311d017701eee95de7a9330f650afb55e5",
+      "actual": "2b565ce49e067cd8fe1a5b98a16dc0311d017701eee95de7a9330f650afb55e5",
+      "passed": true
+    },
+    {
+      "path": "en/reference/osc.md",
+      "expected": "d01d60ab86aa14435a095798ae13a39497cc928c584fff4466ed46843f8763a8",
+      "actual": "d01d60ab86aa14435a095798ae13a39497cc928c584fff4466ed46843f8763a8",
+      "passed": true
+    },
+    {
+      "path": "en/reference/page-interaction.md",
+      "expected": "25e2ae5b092a852497ac28defee852bd58c430d0233faac8d8f8c239905c0e61",
+      "actual": "25e2ae5b092a852497ac28defee852bd58c430d0233faac8d8f8c239905c0e61",
+      "passed": true
+    },
+    {
+      "path": "en/reference/digital-score.md",
+      "expected": "98e0808db1c241963a1bcacbde361037789a10141d19e954ec016fb1630437d7",
+      "actual": "98e0808db1c241963a1bcacbde361037789a10141d19e954ec016fb1630437d7",
+      "passed": true
+    },
+    {
+      "path": "en/reference/pnds-bundle.md",
+      "expected": "faf20b4d27a00b10a0bd264dd42339ffdfe0970a451a2c7f0be719f81283b99a",
+      "actual": "faf20b4d27a00b10a0bd264dd42339ffdfe0970a451a2c7f0be719f81283b99a",
+      "passed": true
+    }
+  ]
+}

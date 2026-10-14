@@ -1,0 +1,15 @@
+{
+  "label": "case01-none-smoke",
+  "cwd": "/tmp/pnds-161-workflow-results",
+  "command": "node",
+  "args": [
+    "/tmp/pnds-161-skills-harness/portable-skills/pnds-create/tools/smoke.mjs",
+    "/tmp/pnds-161-workflow-results/new-piece"
+  ],
+  "startedAt": "2026-10-13T17:35:37.794Z",
+  "finishedAt": "2026-10-13T17:35:37.851Z",
+  "exitCode": 1,
+  "signal": null,
+  "stdout": "",
+  "stderr": "smoke: listen EPERM: operation not permitted 127.0.0.1\n"
+}

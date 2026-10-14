@@ -1,3 +1,5 @@
+> Historical design record / 历史设计记录: this describes the former course/telematic organization, not current general conversion policy. The current SKILL.md and installed App contract govern new work.
+
 # ADR-0001 — pnds-cm1 是独立 skill，不是 pnds-port 的本地模式
 
 - 状态：已接受（2026-09-11）

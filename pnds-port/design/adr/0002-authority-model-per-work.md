@@ -1,3 +1,5 @@
+> Historical design record / 历史设计记录: this describes the former course/telematic organization, not current general conversion policy. The current SKILL.md and installed App contract govern new work.
+
 # 指挥权威模型按作品裁决，不固定为一种
 
 指挥状态机（段落推进、开始/重置）的权威归属不写死在 skill 里：有的原作设有 conductor 角色（特定开始 UI，由该角色主导，其余端点跟随 =「主导角色」模式）；有的原作所有端点都可开始并同步进入（=「同步开始」模式）。skill 的分析阶段必须从 p5 源码与说明文件判定原作属于哪种，把裁决与依据写进移植契约；无法判定时停下来问用户。

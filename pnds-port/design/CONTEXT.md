@@ -1,3 +1,5 @@
+> Historical design record / 历史设计记录: this describes the former course/telematic organization, not current general conversion policy. The current SKILL.md and installed App contract govern new work.
+
 # pnds-port
 
 将既有的「p5.js 乐谱 + SuperCollider + TouchOSC」三件套数字乐谱移植为 PNDS 工程的 skill 的领域语言。本文件是设计期术语表；skill 运行期内容见 SKILL.md 与 reference/。

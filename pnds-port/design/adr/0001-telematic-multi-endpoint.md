@@ -1,3 +1,5 @@
+> Historical design record / 历史设计记录: this describes the former course/telematic organization, not current general conversion policy. The current SKILL.md and installed App contract govern new work.
+
 # 移植目标为多端点遥现架构，而非单 App 局域网
 
 原作的拓扑是遥现的：多场地各自运行 SuperCollider、演奏者各自持 TouchOSC 设备。移植目标不是把它折叠成单 App + LAN（PNDS-App 的默认场景），而是保持多端点：每个端点运行 PNDS App 加载同一工程，monitor 页承载指挥乐谱并投大屏，演奏者手机连本端点，本地 scsynth 只合成并输出本地声音。端点之间经 pnds-hub 中继**控制信息**（见最小同步集），站点间音频（JackTrip 等）明确不在本 skill 范围。

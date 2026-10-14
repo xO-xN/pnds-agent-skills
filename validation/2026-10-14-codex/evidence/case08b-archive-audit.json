@@ -1,0 +1,21 @@
+{
+  "archive": "/tmp/pnds-161-workflow-results/distribution/Existing Score-0.4.3.pnds",
+  "sha256": "02cc2438193ee6de6b0bf7c72a444d9715550bb59be97a0432bc6fddaab64c2c",
+  "passed": true,
+  "crc": "passed",
+  "singleRoot": "Existing Score",
+  "metadata": {
+    "formatVersion": 1,
+    "packedWith": "pnds-agent-skills 0.2.0",
+    "packedAt": "2026-10-13T17:45:40.742Z",
+    "sourcePlatform": "darwin-arm64"
+  },
+  "runtimeFilesCompared": 313,
+  "permissionBitsVerified": true,
+  "executablesCompared": 5,
+  "symlinkEntries": 0,
+  "productionDependency": "qrcode1.5.4 present",
+  "rootDocsTestsExcluded": true,
+  "exactSavedManifest": true,
+  "nativeInstall": "not run; extracted file validation only"
+}

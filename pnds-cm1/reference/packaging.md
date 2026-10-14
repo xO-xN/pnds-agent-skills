@@ -1,34 +1,7 @@
-# Phase 5 — Packaging 打包
+# CM1 source and bundle / 课程交付
 
-The deliverable is BOTH the project folder and a `.pnds` bundle. Generated projects do not carry a pack script — the skill packs via its own tool.
+The explicitly selected course requires both editable source and a .pnds plus SHA256. Course Node/control/recovery, None health, real browser walkthrough and output-contract gate must be honestly recorded; unavailable conditions do not become passes. Runtime/sound/device/native and installation checks remain separate evidence.
 
-## Use
+Use the matched App creation workbench “Generate .pnds”, or the bundled static helper in [tools](tools.md) after validating saved inputs. It never installs dependencies, compiles or starts a server. `tools/smoke.mjs` is separate explicit None execution. Package preserves arbitrary assets/source files except contract exclusions (root docs/test/tests and `.git*`/`.DS_Store` at any depth), materializes internal symlinks and skips outside targets. Put authoring-only private materials beneath root docs if they must not travel. Validate all declared synthdefs and production dependencies, permissions, single root plus top-level pnds-bundle.json, SHA256 and actual install round trip. Content changes after distribution require version increase with id retained.
 
-```sh
-node <skill-dir>/tools/pack.mjs <project-dir> [--out <dir>]
-```
-
-Default output: the project's parent directory. Prints `{pndsFile, sha256, rootDir, health}`.
-
-## What it does (and why you can trust it)
-
-Mirrors the Template's release CI exactly:
-
-1. **Allowlist staging** into a temp dir — only `manifest.json, package.json, server.js, README.md, LICENSE, lib/, audio/, public/, node_modules/, supercollider/synthdefs/` enter the bundle; `docs/`, `test/`, `sources/`, `supercollider/source/`, `supercollider/debug/`, `.git*`, `package-lock.json`, `.DS_Store` stay out by construction (never by hoping an exclude-list caught them). The working project is never mutated.
-2. **Dependencies**: `npm prune --omit=dev` inside staging (or `npm ci --omit=dev` if node_modules absent); verifies every `dependencies` entry actually present.
-3. **Structural checks**: every manifest `synthdefs` path present in staging; forbidden paths absent.
-4. **Smoke boot** `--audio-mode none` on FREE ports (manifest ports are temporarily patched in staging and restored before zipping — so packaging never fights a running session); requires health `status:"ready"` AND `projectId` matching the manifest.
-5. **Bundle**: `zip -X` with single root dir `<clean name>` + top-level `pnds-bundle.json` (formatVersion 1), prints sha256.
-
-## Version discipline
-
-Same `id` + `version` always reinstalls over itself — any content change must bump `manifest.json` `version` (patch for fixes, minor for capabilities). Before repacking an edited project, check the version.
-
-## Alternatives (tell the user, don't run)
-
-- App → 设置（⌘,）→ 开发者工具 → 打包工程 — the canonical packer with UI; same layout rules.
-- The project's CI can adopt the Template's `.github/workflows/package.yml` if the user turns the folder into a released repo later.
-
-## Distribution
-
-Hand the user the `.pnds` path + sha256. Recipients need only PNDS App on the performance Mac (no Node, no SuperCollider, no internet at runtime; phones need only the LAN). Every install is the same universal bundle; the only runtime choice is each performer's player ID on the performer page.
+Handoff includes source and bundle paths, hash, scan → player ID → START → bounded-end flow, author-approved deltas and actual/pending acceptance. No hub/node configuration or role selection is introduced by CM1.

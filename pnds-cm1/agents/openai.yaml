@@ -1,0 +1,6 @@
+interface:
+  display_name: "PNDS CM1 course"
+  short_description: "Port an explicitly selected local classroom score"
+  default_prompt: "Use $pnds-cm1 to port this classroom score under the course output baseline."
+policy:
+  allow_implicit_invocation: false

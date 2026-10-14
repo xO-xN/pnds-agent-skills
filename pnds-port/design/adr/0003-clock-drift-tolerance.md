@@ -1,3 +1,5 @@
+> Historical design record / 历史设计记录: this describes the former course/telematic organization, not current general conversion policy. The current SKILL.md and installed App contract govern new work.
+
 # 端点间不做时钟同步，接受漂移
 
 跨端点连续量（指针角度、自动段落计时）不做 NTP 式对齐：离散事件以收到时刻锚定（hub `hubReceivedAt` 可选校验），连续量由本地时钟推导。端点间视觉偏差 ≈ 中继抖动（百毫秒级），对人类演奏者无感；原作每位演奏者各开一个浏览器、各跑各的钟，精度并不优于本方案。若未来作品要求严格对齐，再引入 echo RTT 偏移估计（Telematic-Network-Diagnostics 有现成实现），本 skill 不预置。

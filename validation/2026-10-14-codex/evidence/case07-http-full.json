@@ -1,0 +1,31 @@
+{
+  "health": {
+    "status": "ready",
+    "projectId": "existing-score",
+    "audioMode": "none",
+    "audio": {
+      "status": "disabled",
+      "target": null,
+      "error": null
+    },
+    "scoreServer": {
+      "performerPort": 53102,
+      "monitorPort": 53103,
+      "error": null
+    }
+  },
+  "performerUrl": "http://127.0.0.1:53102/?ticket=abc#observe",
+  "actualDestinationHTTP": 200,
+  "hostHeaderIgnored": true,
+  "qr": {
+    "imagePath": "/tmp/pnds-161-workflow-results/evidence/case07-full-qr.png",
+    "bytes": 2993,
+    "decodedUrl": "http://127.0.0.1:53102/?ticket=abc#observe"
+  },
+  "childStopped": true,
+  "exit": {
+    "code": 0,
+    "signal": null
+  },
+  "serverOutput": ""
+}

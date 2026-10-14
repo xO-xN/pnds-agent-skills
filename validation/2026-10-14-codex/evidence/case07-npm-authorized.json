@@ -1,0 +1,21 @@
+{
+  "label": "case07-npm-authorized",
+  "cwd": "/tmp/pnds-161-workflow-results/qr-piece",
+  "command": "npm",
+  "args": [
+    "install",
+    "--ignore-scripts",
+    "--no-audit",
+    "--no-fund",
+    "--fetch-retries=0",
+    "--fetch-timeout=15000",
+    "--cache",
+    "/tmp/pnds-161-workflow-results/evidence/npm-cache"
+  ],
+  "startedAt": "2026-10-13T17:42:00.994Z",
+  "finishedAt": "2026-10-13T17:42:12.034Z",
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "\nadded 29 packages in 11s\n",
+  "stderr": "npm notice\nnpm notice New major version of npm available! 11.17.0 -> 12.2.0\nnpm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0\nnpm notice To update run: npm install -g npm@12.2.0\nnpm notice\n"
+}

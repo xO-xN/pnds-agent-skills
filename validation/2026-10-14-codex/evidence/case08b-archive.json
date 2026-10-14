@@ -1,0 +1,14 @@
+{
+  "label": "case08b-archive",
+  "cwd": "/tmp/pnds-161-workflow-results",
+  "command": "python3",
+  "args": [
+    "scripts/archive-check.py"
+  ],
+  "startedAt": "2026-10-13T17:46:25.038Z",
+  "finishedAt": "2026-10-13T17:46:25.167Z",
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "{\n  \"archive\": \"/tmp/pnds-161-workflow-results/distribution/Existing Score-0.4.3.pnds\",\n  \"sha256\": \"02cc2438193ee6de6b0bf7c72a444d9715550bb59be97a0432bc6fddaab64c2c\",\n  \"passed\": true,\n  \"crc\": \"passed\",\n  \"singleRoot\": \"Existing Score\",\n  \"metadata\": {\n    \"formatVersion\": 1,\n    \"packedWith\": \"pnds-agent-skills 0.2.0\",\n    \"packedAt\": \"2026-10-13T17:45:40.742Z\",\n    \"sourcePlatform\": \"darwin-arm64\"\n  },\n  \"runtimeFilesCompared\": 313,\n  \"permissionBitsVerified\": true,\n  \"executablesCompared\": 5,\n  \"symlinkEntries\": 0,\n  \"productionDependency\": \"qrcode1.5.4 present\",\n  \"rootDocsTestsExcluded\": true,\n  \"exactSavedManifest\": true,\n  \"nativeInstall\": \"not run; extracted file validation only\"\n}\n",
+  "stderr": ""
+}

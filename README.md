@@ -1,31 +1,22 @@
 # pnds-agent-skills
 
-AI agent skills for the PNDS ecosystem (PNDS App / PNDS Template / `.pnds` projects). Each directory is a self-contained skill — see its `SKILL.md` for what it does and how to run it.
+External coding-agent workflows for creating, modifying and assessing PNDS projects. Ordinary work returns editable source and actual decision/validation/handoff records; distribution is explicit. Skills are optional and are not required to use PNDS App or its offline technical modules.
 
-Built for Prof. Kenneth Fields' computer music course: the skills port classroom networked digital score projects (p5.js + SuperCollider + TouchOSC) into PNDS projects.
+| Skill | Purpose |
+| --- | --- |
+| [pnds-create](pnds-create/SKILL.md) | Unified new/modify/arbitrary-source assessment entry |
+| [pnds-investigate](pnds-investigate/SKILL.md) | Independent source/project fact investigation |
+| [pnds-assess](pnds-assess/SKILL.md) | Author discussion, feasibility and implementation confirmation |
+| [pnds-runtime](pnds-runtime/SKILL.md) | Installed runtime contract audit/adaptation and initial structure |
+| [pnds-modules](pnds-modules/SKILL.md) | Real module wiring, combination and customization-preserving maintenance |
+| [pnds-validate](pnds-validate/SKILL.md) | Separate validation stages, explicit packaging and handoff |
+| [pnds-port](pnds-port/SKILL.md) | Arbitrary-source assessment then author-confirmed conversion |
+| [pnds-cm1](pnds-cm1/SKILL.md) | Explicit course first phase: polished triple, LAN/START/bounded end/QR/player IDs, source plus bundle |
 
-## Skills
+Each directory is independently distributable. Its local capabilities, references and helpers are included; no installed sibling Skill or maintainer Template checkout is required. Copy only the directory needed into the current agent's configured Skills location. The user chooses installation; this repository does not automatically change agent environments. A harness without native Skill invocation can read SKILL.md and its local capability pointers directly.
 
-| Skill                                                     | What it does                                                                                                                                                                                     |
-| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [pnds-cm1](./pnds-cm1/) | Port a polished classroom work (p5.js sketch + SuperCollider `.scd` + one TouchOSC `.tosc`) into a runnable PNDS project for **local-network performance** — one monitor page (conductor score, START, QR join) plus per-player web controls; no hub, no roles. Phase 1 of the course. Use only when the user explicitly chooses this skill. |
-| [pnds-port](./pnds-port/) | Port an existing digital-musical-score "triple" (an OpenProcessing p5.js sketch + SuperCollider `.scd` file(s) + TouchOSC `.tosc` file(s)) into a runnable PNDS score project for **multi-endpoint telematic performance** — the complete project folder **and** its `.pnds` bundle in one shot, faithful to the original. |
+Use installed PNDS App `Contents/Resources/help/<tree>/…` first, then an explicitly matched versioned source fallback. Missing/mismatched resources are limitations. Workflow version 0.2.0 and Host protocol 1 do not promise that unpublished v1.6.1 capabilities exist in an older App. Each module's fixed source version, Host protocol, runtime dependency and adaptation policy must be checked separately.
 
-The two skills serve different needs and produce different outputs — the user designates which one to run; agents must not choose between them on their own.
+Maintain shared resources under `resources/`; `npm run build` writes their self-contained copies and SHA256 manifests to all eight Skills. `npm run check:all` verifies reproducibility/local references and tool behavior (Node 24; `zip`/`unzip` for package tests; controlled localhost access for smoke tests). Helpers never silently install dependencies or compile; None smoke is explicit and separate from static packaging. [Validation evidence](VALIDATION.md) records observed coverage and pending external/native acceptance; [harness requests](test/harness-prompts.md) describe realistic independent tasks.
 
-## Install
-
-Clone the repo, then copy (or symlink) the skill directory you want into your agent's skills directory:
-
-```sh
-git clone https://github.com/xO-xN/pnds-agent-skills.git
-cp -R pnds-agent-skills/<skill-dir> ~/.agents/skills/
-# or keep it linked to the repo:
-# ln -s "$(pwd)/pnds-agent-skills/<skill-dir>" ~/.agents/skills/<skill-dir>
-```
-
-## Related repositories
-
-- [PNDS-App](https://github.com/xO-xN/PNDS-App) — the macOS host that runs PNDS projects
-- [PNDS-Template](https://github.com/xO-xN/PNDS-Template) — the creation template for PNDS projects
-- [pnds-hub](https://github.com/xO-xN/pnds-hub) — relay server for cross-internet performances
+Sources: [PNDS App](https://github.com/xO-xN/PNDS-App), [PNDS Template](https://github.com/xO-xN/PNDS-Template), and optional [pnds-hub](https://github.com/xO-xN/pnds-hub). Published resources must be matched to the actual installation; remote main is not installed-version evidence.

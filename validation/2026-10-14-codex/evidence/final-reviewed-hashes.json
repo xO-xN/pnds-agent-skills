@@ -1,0 +1,14 @@
+{
+  "label": "final-reviewed-hashes",
+  "cwd": "/tmp/pnds-161-workflow-results",
+  "command": "node",
+  "args": [
+    "scripts/verify-reviewed.mjs"
+  ],
+  "startedAt": "2026-10-13T17:47:35.044Z",
+  "finishedAt": "2026-10-13T17:47:35.075Z",
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "PASS: reviewed pnds-validate and pnds-cm1 resources match manifests\n",
+  "stderr": ""
+}

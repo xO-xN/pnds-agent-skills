@@ -1,0 +1,15 @@
+{
+  "label": "case01-none-smoke-authorized",
+  "cwd": "/tmp/pnds-161-workflow-results",
+  "command": "node",
+  "args": [
+    "/tmp/pnds-161-skills-harness/portable-skills/pnds-create/tools/smoke.mjs",
+    "/tmp/pnds-161-workflow-results/new-piece"
+  ],
+  "startedAt": "2026-10-13T17:35:47.640Z",
+  "finishedAt": "2026-10-13T17:35:49.248Z",
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "{\n  \"health\": {\n    \"status\": \"ready\",\n    \"projectId\": \"cyan-twelve\",\n    \"audioMode\": \"none\",\n    \"audio\": {\n      \"status\": \"disabled\",\n      \"target\": null,\n      \"error\": null\n    },\n    \"scoreServer\": {\n      \"performerPort\": 51508,\n      \"monitorPort\": 51509,\n      \"error\": null\n    }\n  },\n  \"runtime\": \"v24.19.0\",\n  \"mode\": \"none\",\n  \"processStopped\": true\n}\n",
+  "stderr": ""
+}

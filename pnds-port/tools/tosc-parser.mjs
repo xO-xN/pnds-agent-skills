@@ -38,14 +38,15 @@ function buildTree(xml) {
   let m;
   while ((m = tokenRe.exec(xml)) !== null) {
     if (m[0] === "</node>") {
+      if (stack.length === 1) throw new Error("unexpected closing <node> tag");
       const node = stack.pop();
       node.end = m.index;
       // own content = from end of open tag to first child open (or close)
       const firstChild = node.children[0];
       node.ownXml = xml.slice(node.openEnd, firstChild ? firstChild.start : m.index);
     } else {
-      const type = (m[0].match(/type='([^']*)'/) || [])[1] || "?";
-      const id = (m[0].match(/ID='([^']*)'/) || [])[1] || "";
+      const type = (m[0].match(/type=['"]([^'"]*)['"]/) || [])[1] || "?";
+      const id = (m[0].match(/ID=['"]([^'"]*)['"]/) || [])[1] || "";
       const node = { type, id, start: m.index, openEnd: m.index + m[0].length, children: [] };
       const parent = stack[stack.length - 1];
       if (parent.children.length === 0) {
@@ -61,7 +62,7 @@ function buildTree(xml) {
 
 function parseProperties(ownXml) {
   const props = {};
-  const propRe = /<property type='([^']*)'><key><!\[CDATA\[([^\]]*)\]\]><\/key>([\s\S]*?)<\/property>/g;
+  const propRe = /<property type=['"]([^'"]*)['"]><key><!\[CDATA\[([^\]]*)\]\]><\/key>([\s\S]*?)<\/property>/g;
   let m;
   while ((m = propRe.exec(ownXml)) !== null) {
     const [, kind, key, body] = m;
@@ -170,7 +171,9 @@ function collect(nodes, parentNames, acc) {
 function parseFile(file) {
   const raw = fs.readFileSync(file);
   const xml = inflate(raw).toString("utf8");
+  if (!/<node\b/.test(xml)) throw new Error("not a TouchOSC XML node layout");
   const tree = buildTree(xml);
+  if (!tree.children.length) throw new Error("TouchOSC layout has no root node");
   const canvas = {
     // root GROUP frame carries the canvas size in .tosc files
     frame: parseProperties(tree.children[0]?.ownXml || "").frame ?? null,

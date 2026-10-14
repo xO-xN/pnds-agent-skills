@@ -1,0 +1,15 @@
+{
+  "label": "case07-production-deps",
+  "cwd": "/tmp/pnds-161-workflow-results/qr-piece",
+  "command": "npm",
+  "args": [
+    "ls",
+    "--omit=dev"
+  ],
+  "startedAt": "2026-10-13T17:43:58.478Z",
+  "finishedAt": "2026-10-13T17:43:58.611Z",
+  "exitCode": 0,
+  "signal": null,
+  "stdout": "existing-score@ /private/tmp/pnds-161-workflow-results/qr-piece\n└── qrcode@1.5.4\n\n",
+  "stderr": ""
+}

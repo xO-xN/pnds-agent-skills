@@ -11,7 +11,7 @@ The non-negotiables in SKILL.md constrain the *process*; this contract constrain
 | M1 | **Conductor visuals structure-preserved**: every visual element of the original p5 sketch that carries score meaning (sections, pointer, sectors/nodes, cues) renders with the same logic and timing in the port | walkthrough vs. original |
 | M2 | **Performance lifecycle works**: START button present and functional; pause/reset/jump etc. ported if (and only if) the sketch had them; a sketch that auto-ran on load is explicitized as START (known delta recorded) | press every control; score responds |
 | M3 | **Bounded duration**: the performance has a defined end; at the end the piece wraps automatically (synths released, end-state visual), never loops forever. No-intrinsic-end originals carry the user-ruled duration in the port map | let it run to the end once |
-| M4 | **QR join code**: monitor shows a QR pointing at the performer URL (built from `PNDS_HOST_IP`), so phones join by scanning. Default-on; omit ONLY if the user explicitly says so (port-map row) | scan with a phone; lands on performer page |
+| M4 | **QR join code**: monitor shows a QR pointing at the actual performer URL (`PNDS_PERFORMER_URL` takes precedence; only when absent use the matched `PNDS_HOST_IP`/performer-port fallback), so phones join by scanning. Default-on; omit ONLY if the user explicitly says so (port-map row) | scan with a phone; lands on performer page |
 | M5 | **Player-ID presence**: the monitor shows which seats are taken (the player-ID registry), so the operator can see the ensemble is complete before START | join with one phone; seat shows occupied |
 | M6 | **App integration**: theme-follow and locale-follow wired (monitor follows the App's pushed theme/locale) | switch App theme/language |
 | M7 | **Cold-open clean**: opened with cleared storage the page renders its real content — no blank/black screen, no overlay blocking input, resize-safe canvas, iframe-embeddable | incognito walkthrough |
@@ -39,6 +39,6 @@ The non-negotiables in SKILL.md constrain the *process*; this contract constrain
 
 ## What this contract deliberately does NOT require
 
-- No hub, roles, cross-endpoint sync, or `telematic` anything (that is pnds-port's architecture).
+- No hub, roles, cross-endpoint sync, or `telematic` anything (the course is local; general conversion topology is author-decided).
 - No orientation enforcement, no rotate overlays (creator decision for later iterations, never a port default).
 - No rehearsal-roster or other work-specific conveniences — works may add them; the baseline only guarantees the floor.

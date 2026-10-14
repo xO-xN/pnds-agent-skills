@@ -1,0 +1,47 @@
+{
+  "formatVersion": 1,
+  "skill": "pnds-port",
+  "workflowVersion": "0.2.0",
+  "hostProtocol": 1,
+  "dependencies": {
+    "node": ">=24 <25",
+    "pack": [
+      "zip"
+    ],
+    "archiveInspection": [
+      "unzip"
+    ],
+    "internalCompilation": [
+      "sclang when needed"
+    ],
+    "platformManual": "installed App corpus or explicitly matched versioned source"
+  },
+  "files": {
+    "SKILL.md": "ea2aa3e2b6f637300c1be4932882fb0361d5583bdd908e641106e51d2680dfe4",
+    "capabilities/adapt-runtime.md": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+    "capabilities/assess.md": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+    "capabilities/integrate-modules.md": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+    "capabilities/investigate.md": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+    "capabilities/validate-handoff.md": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+    "design/CONTEXT.md": "16eca0cf377c982331f4a2e1cb5f4fd45dca59aa7287f8433adfea4d11536fce",
+    "design/adr/0001-telematic-multi-endpoint.md": "4edc7ee68c792fec57ac61ffa23eef80fd8c06e05241474ccf686448936b578b",
+    "design/adr/0002-authority-model-per-work.md": "37d1c57eb08090a9eaeb96a78c2c190076353325ffd03430591abe4a183ffca2",
+    "design/adr/0003-clock-drift-tolerance.md": "fb2959a1bb4d394f6d873f7dbab0d104bddc914669c24b0fe2ab89d4f00a938f",
+    "reference/analysis.md": "360f286eac129324ccd86b3d99fe4245313bf96e8a39b79eac498184e2476a43",
+    "reference/case-co-here.md": "287488274f633c4bb45e8bb3094f6655faf8d7b395e6d2c9f2e178f500463170",
+    "reference/conversion-playbook.md": "6736f8c02eee63090af2d87c0790ab2e44aee005d6897e852ab0da50d82974d0",
+    "reference/input-validation.md": "d36091026606508c3cbfd4b4828308d9ec6eb303892055452a2185b1e19499e2",
+    "reference/legacy-scope.md": "6e5b4104aab341ad5d733228b5cfeebfe797b93866f558d34742691808c590a3",
+    "reference/module-guide.md": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+    "reference/packaging.md": "9d6d1950ad919959b9ddbf7b27f0e9387cf031f4d390095846ec8c6be1e49be4",
+    "reference/platform-sources.md": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+    "reference/port-map-template.md": "a2c86931557214cc1f0749dcf12f255d9cbaff80ada1103f8fbd417d25e000c7",
+    "reference/records.md": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+    "reference/tools.md": "34d0aa685623c7f9d21bf40982e7f2f2dd7a4c7f9fec109b16d39d03c682b607",
+    "tools/pack.mjs": "f32cdd13356b59163f28dad427e372146158bceda784721b464ecfa9f6f8f2c4",
+    "tools/platform-info.mjs": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+    "tools/project-files.mjs": "7a0ad30f564f41f21d559b096093a719ec6f85b11db17702a7e0e2f814bb09d7",
+    "tools/smoke.mjs": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+    "tools/tosc-parser.mjs": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b"
+  }
+}
