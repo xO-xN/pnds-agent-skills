@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-14",
+  "source": "Trusted human user reply conveyed by root agent during this same task",
+  "response": "确认，按上述方案完成验收案例",
+  "approvedScope": {
+    "audio": "Internal/scsynth, 220Hz sine, gain0.05, each voice12s",
+    "outputChannels": 1,
+    "visual": "cyan width100→600px over12s, START resets visual",
+    "repeatStart": "new overlapping tone for each START",
+    "topology": "one local machine, monitor sole operator, observation-only performer",
+    "modules": "no hub, seats, or imposed role policy",
+    "delivery": "editable source only, no bundle",
+    "deferred": "real sound equivalence/volume/scheduling/native-device acceptance"
+  },
+  "notFabricated": true
+}

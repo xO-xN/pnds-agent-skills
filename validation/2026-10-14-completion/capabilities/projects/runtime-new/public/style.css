@@ -1,0 +1,9 @@
+:root {color-scheme: dark; font-family: system-ui, sans-serif; background: #10171b; color: #eefaff;}
+body {margin: 0; min-height: 100vh; display: grid; place-items: center;}
+main {width: min(84vw, 70rem); padding-block: 5rem 3rem;}
+button {font: inherit; font-weight: 700; padding: 0.8rem 1.4rem; color: #10171b; background: #00e5ff; border: 0; border-radius: 0.3rem; cursor: pointer;}
+button:disabled {opacity: 0.5; cursor: default;}
+#rail {--position: 0%; position: relative; height: 8rem; margin-block: 3rem; background: #202e35;}
+#bar {position: absolute; left: var(--position); width: 0.7rem; height: 100%; background: #00e5ff; transform: translateX(-50%);}
+#status {min-height: 1.5em;}
+p {font-size: 1.15rem; line-height: 1.6;}

@@ -1,0 +1,16 @@
+
+> pulse-field@0.1.0 check
+> node --check server.mjs && node --check public/monitor.js && node --test tests/*.test.mjs
+
+✔ Internal ready requires owned group acknowledgement; repeated monitor START sends independent mono twelve-second voices and cleans only its group (95.05725ms)
+✔ missing scsynth acknowledgements remain unready and explicitly fail without starting a voice (1263.327083ms)
+✔ scsynth rejects load: health exposes error, START is refused, no root voice or engine quit (76.153708ms)
+✔ monitor preserves 100→600px twelve-second growth and repeated START resets without blocking another tone request (1.228958ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4970.941667

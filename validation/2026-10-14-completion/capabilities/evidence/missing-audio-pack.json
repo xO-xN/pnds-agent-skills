@@ -1,0 +1,13 @@
+{
+  "command": "/usr/local/bin/node",
+  "args": [
+    "/var/folders/45/snb4q9n13nvd_q69cwyht8n40000gn/T/pnds-validate-independent-n2e69z/pnds-validate/tools/pack.mjs",
+    "/tmp/pnds161-acceptance-projects/missing-audio",
+    "--out",
+    "/tmp/pnds161-acceptance-projects/failed-distribution"
+  ],
+  "cwd": "/var/folders/45/snb4q9n13nvd_q69cwyht8n40000gn/T/pnds-validate-independent-n2e69z/pnds-validate",
+  "exit": 1,
+  "stdout": "",
+  "stderr": "pack: audio.synthdefs missing or outside project: supercollider/synthdefs/pending.scsyndef\n"
+}

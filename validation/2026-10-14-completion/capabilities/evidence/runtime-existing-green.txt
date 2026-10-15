@@ -1,0 +1,10 @@
+✔ selected LAN reaches original performer/monitor after matching loopback health; clean stop (62.407666ms)
+✔ unsupported Internal mode exits before ready and preserves None policy (27.605042ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2129.439166

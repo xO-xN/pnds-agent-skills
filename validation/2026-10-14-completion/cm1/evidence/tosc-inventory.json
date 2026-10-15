@@ -1,0 +1,78 @@
+{
+  "file": "validation/2026-10-14-completion/cm1/source-triple/controls.tosc",
+  "canvas": {
+    "frame": {
+      "x": 0,
+      "y": 0,
+      "w": 360,
+      "h": 480
+    }
+  },
+  "controls": [
+    {
+      "type": "GROUP",
+      "id": "a6400000-0000-4000-8000-000000000001",
+      "name": "CM1 Shared Tone",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 480
+      },
+      "children": [
+        {
+          "type": "FADER",
+          "id": "a6400000-0000-4000-8000-000000000002",
+          "name": "frequency",
+          "frame": {
+            "x": 32,
+            "y": 80,
+            "w": 120,
+            "h": 320
+          },
+          "osc": {
+            "enabled": true,
+            "pathTemplate": "CONSTANT:/cm1/frequency",
+            "pathResolved": "/cm1/frequency",
+            "args": [
+              {
+                "type": "VALUE",
+                "conversion": "FLOAT",
+                "variable": "x",
+                "scaleMin": 0,
+                "scaleMax": 1
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "type": "FADER",
+          "id": "a6400000-0000-4000-8000-000000000003",
+          "name": "gain",
+          "frame": {
+            "x": 208,
+            "y": 80,
+            "w": 120,
+            "h": 320
+          },
+          "osc": {
+            "enabled": true,
+            "pathTemplate": "CONSTANT:/cm1/gain",
+            "pathResolved": "/cm1/gain",
+            "args": [
+              {
+                "type": "VALUE",
+                "conversion": "FLOAT",
+                "variable": "x",
+                "scaleMin": 0,
+                "scaleMax": 1
+              }
+            ]
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

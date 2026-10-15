@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "name": "runtime-new",
+      "bundles": []
+    },
+    {
+      "name": "runtime-existing",
+      "bundles": []
+    },
+    {
+      "name": "visual-line-port",
+      "bundles": []
+    },
+    {
+      "name": "module-custom",
+      "bundles": []
+    }
+  ],
+  "result": "no bundles generated in ordinary source-only tasks"
+}

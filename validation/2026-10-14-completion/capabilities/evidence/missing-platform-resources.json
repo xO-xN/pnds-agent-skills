@@ -1,0 +1,14 @@
+{
+  "command": "/usr/local/bin/node",
+  "args": [
+    "/var/folders/45/snb4q9n13nvd_q69cwyht8n40000gn/T/pnds-validate-independent-n2e69z/pnds-validate/tools/platform-info.mjs",
+    "--app",
+    "/tmp/pnds161-acceptance-projects/absent-PNDS.app",
+    "--locale",
+    "en"
+  ],
+  "cwd": "/var/folders/45/snb4q9n13nvd_q69cwyht8n40000gn/T/pnds-validate-independent-n2e69z/pnds-validate",
+  "exit": 1,
+  "stdout": "",
+  "stderr": "platform-info: ENOENT: no such file or directory, lstat '/private/tmp/pnds161-acceptance-projects/absent-PNDS.app'\n"
+}

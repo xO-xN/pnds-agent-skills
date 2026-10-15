@@ -1,0 +1,16 @@
+
+> visual-line@0.1.0 check
+> node --check server.cjs && node --check public/monitor.js && node --check public/timeline.js && node --test tests/*.test.*
+
+✔ selected LAN reaches original performer/monitor after matching loopback health; clean stop (61.191ms)
+✔ unsupported Internal mode exits before ready and preserves None policy (28.440292ms)
+✔ duration is twelve seconds and position remains bounded (0.319291ms)
+✔ actual monitor controller waits for START, finishes once and stays stopped (0.649375ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2134.030125

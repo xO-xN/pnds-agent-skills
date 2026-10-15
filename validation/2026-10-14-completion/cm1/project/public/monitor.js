@@ -1,0 +1,10 @@
+let scoreState={phase:'waiting',startedAt:null,durationMs:8000};
+const labels={en:{title:'Shared Tone · CM1 validation fixture',start:'START'},'zh-CN':{title:'共享音色 · CM1 验收工程',start:'开始'}};
+window.applyLocale=locale=>{const copy=labels[locale]||labels.en;document.querySelector('#title').textContent=copy.title;document.querySelector('#start').textContent=copy.start;};
+window.applyLocale(window.CM1_LOCALE||'en');
+const address=document.querySelector('#address');address.href=CM1.performerUrl;address.textContent=CM1.performerUrl;
+const sketch=new p5(p=>{p.setup=()=>{const node=document.querySelector('#score');p.createCanvas(node.clientWidth,360).parent(node);};p.draw=()=>drawCM1Score(p,scoreState);p.windowResized=()=>p.resizeCanvas(document.querySelector('#score').clientWidth,360);});
+const observer=PNDSPlayers.connectObserver({io,origin:CM1.origin,events:CM1.events});
+const unsub=observer.onState(state=>{scoreState={...state,startedAt:state.startedAt===null?null:Date.now()-(state.serverTime-state.startedAt)};document.querySelector('#phase').textContent=state.phase;document.querySelector('#players').textContent=state.players.map(player=>`Player ${player.id}: ${player.online?'online':player.claimed?'reserved':'waiting'}`).join(' · ');document.querySelector('#start').disabled=state.phase!=='waiting';});
+document.querySelector('#start').addEventListener('click',()=>fetch('/start',{method:'POST'}));
+addEventListener('pagehide',()=>{unsub();observer.close();sketch.remove();PNDS_THEME.dispose();PNDS_LOCALE.dispose();});

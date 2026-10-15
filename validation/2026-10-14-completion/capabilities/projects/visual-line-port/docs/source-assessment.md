@@ -1,0 +1,3 @@
+# Visual Line source assessment
+
+Source: inputs/visual-line-browser, controlled evaluator browser source without a triple. public browser files define a twelve-second local visual line, disabled duplicate START and replay; no sound/OSC/network/identity/recovery. Authored test request explicitly chooses local monitor operator / None / observation performer and source-only scope, with no artistic changes. Required PNDS adaptation is manifest/two-port LAN Node server plus records. All supplied browser bytes unchanged, independent static/HTTP/None health/stop checks passed. Actual App opening/browser/native/device/performance remain unverified. This source and specification are distinct from Pulse Field and do not confirm that real author's proposed audio conversion.

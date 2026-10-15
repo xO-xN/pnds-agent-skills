@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-14",
+  "harness": "Codex collaboration capability_acceptance subagent",
+  "model": "inherited identifier not exposed",
+  "nativeSkillInvocations": 0,
+  "directEntryReads": 7,
+  "target": "App1.6.1 development contract/protocol1",
+  "cases": [
+    {
+      "issues": [
+        181
+      ],
+      "case": "investigate-three-inputs",
+      "status": "passed",
+      "report": "reports/investigation-three-inputs.md",
+      "sourceChanges": false
+    },
+    {
+      "issues": [
+        182,
+        187
+      ],
+      "case": "real-pulse-field-assessment-confirmation-implementation-handoff",
+      "status": "passed-initial-source-actual-user-confirmed-mono-controlled-protocol-compiled-artifact-native-audio-unverified",
+      "report": "reports/pulse-confirmed-implementation.md",
+      "sourceChanges": true,
+      "originalInputsPreserved": true
+    },
+    {
+      "issues": [
+        182,
+        187
+      ],
+      "case": "partial-max-assessment",
+      "status": "passed-conditional-no-rewrite",
+      "report": "reports/assessment-and-pending-confirmation.md",
+      "sourceChanges": false
+    },
+    {
+      "issues": [
+        183
+      ],
+      "case": "independent-runtime-new-and-existing",
+      "status": "passed-static-lan-none-health-stop-app-open-unverified",
+      "report": "reports/runtime-preparation-and-adaptation.md"
+    },
+    {
+      "issues": [
+        184
+      ],
+      "case": "custom-module-maintenance",
+      "status": "passed-custom-bytes-preserved-http-png-existing-behavior",
+      "report": "reports/module-custom-conflict-maintenance.md"
+    },
+    {
+      "issues": [
+        185
+      ],
+      "case": "missing-audio-resource-and-continuation",
+      "status": "passed-expected-pack-resource-failures-source-preserved",
+      "report": "reports/validation-failure-and-continuation.md"
+    },
+    {
+      "issues": [
+        182,
+        186,
+        187
+      ],
+      "case": "authored-nontriple-continuation",
+      "status": "passed-controlled-fixture-not-human-pulse-field-confirmation",
+      "report": "reports/port-authored-continuation.md"
+    },
+    {
+      "issues": [
+        185,
+        189
+      ],
+      "case": "native-open-and-install",
+      "status": "not-run-user-deferred",
+      "report": "README.md"
+    }
+  ]
+}

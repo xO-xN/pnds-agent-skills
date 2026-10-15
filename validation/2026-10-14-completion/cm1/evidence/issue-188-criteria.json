@@ -1,0 +1,77 @@
+{
+  "issue": 188,
+  "scope": "current user-authorized implementation/automated/browser completion; true native/device/sound acceptance deferred",
+  "criteria": [
+    {
+      "id": "AC1",
+      "status": "implemented-and-observed-at-approved-seams",
+      "eligibleToCheckAfterRootReview": true,
+      "rationale": "pnds-cm1 remains explicit independently discoverable entry; SKILL input requirements and input-validation distinguish polished triple/single TouchOSC from general conversion",
+      "evidence": "pnds-cm1/SKILL.md; pnds-cm1/reference/input-validation.md; actual explicitly selected maintenance task"
+    },
+    {
+      "id": "AC2",
+      "status": "implemented-and-observed-at-approved-seams",
+      "eligibleToCheckAfterRootReview": true,
+      "rationale": "Shared five capability documents/resources were read from fresh standalone copy; CM1-specific baseline remains only CM1 reference workflow",
+      "evidence": "pnds-cm1/capabilities/; eight resource bundles/checks and17 tool tests; copied resource manifest hash"
+    },
+    {
+      "id": "AC3",
+      "status": "implemented-and-observed-at-approved-seams",
+      "eligibleToCheckAfterRootReview": true,
+      "rationale": "LAN/no-hub/no-role architecture; START/bounded end, real QR, player IDs, independent controls/recovery and both exact browser directions implemented; original fixture/required additions explicitly recorded",
+      "evidence": "project/docs/port-map.md; real-process3 tests; browser-ledger.json; orientation screenshot; source-triple source freeze. Physical touch/scan/unlock remain deferred, not claimed"
+    },
+    {
+      "id": "AC4",
+      "status": "implemented-and-observed-at-approved-seams",
+      "eligibleToCheckAfterRootReview": true,
+      "rationale": "Editable source plus actual static validation .pnds delivered after complete implementation/browser audit; P7 N/A has original source evidence; Node/assets/protocol/health/browser gate retained",
+      "evidence": "project/docs/output-audit.md; pack-result.json; archive-audit.json; creator-handoff. Native/device/sound completion remains pending in separate columns, validation-only artifact is not publication"
+    },
+    {
+      "id": "AC5",
+      "status": "implemented-and-observed-at-approved-seams",
+      "eligibleToCheckAfterRootReview": true,
+      "rationale": "Actual Codex collaboration harness ran complete selected CM1 authoring and saved source/control/lifecycle/compiler/None/browser evidence",
+      "evidence": "README.md; source-freeze.json; protocol-tests.txt; bundled-node-tests.txt; synthdef-compile.txt; none-smoke.json; browser-ledger.json and seven actual screenshots. Exact model ID unavailable and not invented"
+    },
+    {
+      "id": "AC6",
+      "status": "implemented-and-observed-at-approved-seams",
+      "eligibleToCheckAfterRootReview": true,
+      "rationale": "Contract ZIP, compiled declared SynthDef, all six exact production dependencies and SHA256 audited; released modules0.2.0/protocol1 match copied README/compatibility/provenance; nohub/roles/telematic",
+      "evidence": "archive-audit.json (1563 files); extracted-bundle-none-smoke.json; project/docs/module-provenance.json; source/proposal records. unzip/smoke is not native App install"
+    },
+    {
+      "id": "AC7",
+      "status": "implemented-and-observed-at-approved-seams",
+      "eligibleToCheckAfterRootReview": true,
+      "rationale": "Fresh copied CM1 directory supplies own helpers/capabilities/references; tool requirements/limitations explicit; real one-harness workflow recorded without installing unrelated Skills",
+      "evidence": "resource-final.txt; skill-checks.txt (17/17); independent /tmp/pnds161-cm1-skill; exact copied manifest SHA; compiler startup correction and isolated successful compile"
+    }
+  ],
+  "pendingTrueAcceptance": [
+    "actual phone QR scan",
+    "physical simultaneous multitouch",
+    "actual mobile rotation and sleep/unlock",
+    "actual sound/output device",
+    "TouchOSC GUI import/device source run",
+    "native App creation opening/embedding/shortcuts",
+    "native .pnds installation round trip"
+  ],
+  "issue189Pending": [
+    "AC2 actual App add→external wiring→return reading/manual test round trip",
+    "AC3 native creation-mode open of actual external source/modified result",
+    "AC6 actual .pnds native installation round trip (static structure/deps/assets/hash passed)",
+    "AC8 final integrated App npm run check:all and release environment regression owned by root; CM1 checks passed",
+    "AC10 user-started App environment/real device report remains deferred; known-limit documentation provided"
+  ],
+  "artifact": {
+    "pndsFile": "/private/tmp/pnds161-acceptance-projects/distribution/CM1 Shared Tone Validation-0.1.0.pnds",
+    "sha256": "292128af064eda943935a8b7494361f03fa1af7c97b602675dd17203d290e81c",
+    "rootDir": "CM1 Shared Tone Validation",
+    "runtimeVerified": false
+  }
+}

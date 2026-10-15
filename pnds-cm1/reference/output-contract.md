@@ -1,6 +1,6 @@
 # Output baseline 输出基准
 
-The strict definition of a correct pnds-cm1 output. Every generated project must satisfy every item below on both pages. This is a **Phase 5 hard gate**: an item that fails blocks packaging until fixed. An item that genuinely does not apply to the work is NOT skipped silently — it must appear in the project's `docs/port-map.md` N/A section with evidence. A silently missing feature is a violation, full stop.
+The strict definition of a correct pnds-cm1 output. Every generated project must satisfy every item below on both pages. This is a **course validation hard gate**: an item that fails blocks packaging until fixed. An item that genuinely does not apply to the work is NOT skipped silently — it must appear in the project's `docs/port-map.md` N/A section with evidence. A silently missing feature is a violation, full stop.
 
 The non-negotiables in SKILL.md constrain the *process*; this contract constrains the *result*. The port map records why anything here is N/A; nothing here is advisory.
 
@@ -30,12 +30,18 @@ The non-negotiables in SKILL.md constrain the *process*; this contract constrain
 | P8 | **Mobile viewport discipline**: `user-scalable=no` + `viewport-fit=cover` + standalone-capable meta, so the page behaves as an app surface on phones | inspect head; pinch does not zoom |
 | P9 | **Visual language inheritance**: the page's colors and design language come from the original p5 sketch (the conductor's style extended to the performers' controls). Deviations are port-map decisions, not accidents | side-by-side with the sketch |
 
-## Audit procedure (Phase 5)
+## Evidence levels and deferred acceptance
 
-1. After the cold-open walkthrough (playbook §8), walk M1–M7 and P1–P9 explicitly.
+Audit each item with two explicit columns: (1) implementation plus actual automated/browser evidence, and (2) remaining native/device/sound acceptance. A protocol test, decoded QR or browser pointer check must never be recorded as a phone scan, physical multitouch, lock/unlock, WKWebView embedding or audible result. Browser cold/warm walkthrough remains required for course implementation; source/assets/protocol/health checks alone do not replace it.
+
+When the author explicitly defers sound or actual devices, retain their checks as pending rather than N/A. Once implementation and available browser checks pass, a statically valid source-plus-bundle may be delivered as a **validation artifact** with those limitations. This is not a completed course/publication acceptance claim or an installation round trip. If browser walkthrough or an implementation item is missing, return source/progress and report that gate unresolved. Complete course acceptance still requires the agreed pending checks; genuine feature N/A still needs source evidence in the port map.
+
+## Audit procedure (course validation)
+
+1. After the cold-open walkthrough in the [course validation playbook](conversion-playbook.md#course-validation-gate), walk M1–M7 and P1–P9 explicitly.
 2. For each item: pass → tick; fails → fix and re-verify; genuinely N/A → confirm the port map carries the row with evidence, else add it now.
 3. M2/M3/M5/P2/P6 additionally covered by node tests where practical (lifecycle transitions, registry, restore) — tests do not replace the walkthrough, they only anchor regressions.
-4. Packaging starts only when the audit table is complete: pass or N/A for every id, nothing blank.
+4. Packaging as a validation artifact starts only when the implementation/browser audit table is complete: pass or evidence-backed N/A for every id, nothing blank. Record deferred native/device/sound checks in the separate acceptance column and handoff; never fold pending into pass.
 
 ## What this contract deliberately does NOT require
 

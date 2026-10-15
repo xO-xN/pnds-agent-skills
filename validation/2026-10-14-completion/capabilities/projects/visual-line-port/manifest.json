@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "visual-line",
+  "name": "Visual Line",
+  "version": "0.1.0",
+  "description": "A visual-only observation score.",
+  "scoreServer": {
+    "entry": "server.cjs",
+    "workingDirectory": ".",
+    "performerPort": 6868,
+    "monitorPort": 6869
+  },
+  "audio": {
+    "defaultMode": "none",
+    "supportedModes": [
+      "none"
+    ]
+  }
+}

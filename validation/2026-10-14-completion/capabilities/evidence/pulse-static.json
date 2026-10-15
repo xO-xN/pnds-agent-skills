@@ -1,0 +1,30 @@
+{
+  "root": "/private/tmp/pnds161-acceptance-projects/pulse-field",
+  "manifest": {
+    "schemaVersion": 1,
+    "id": "pulse-field",
+    "name": "Pulse Field",
+    "version": "0.1.0",
+    "description": "A twelve-second cyan field and overlapping sine tones.",
+    "scoreServer": {
+      "entry": "server.mjs",
+      "workingDirectory": ".",
+      "performerPort": 6878,
+      "monitorPort": 6879
+    },
+    "audio": {
+      "defaultMode": "internal",
+      "supportedModes": [
+        "internal"
+      ],
+      "outputChannels": 1,
+      "synthdefs": [
+        "supercollider/synthdefs/pulseField.scsyndef"
+      ],
+      "scsynth": {
+        "blockSize": 64,
+        "audioBusChannels": 128
+      }
+    }
+  }
+}

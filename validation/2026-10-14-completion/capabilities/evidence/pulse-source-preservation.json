@@ -1,0 +1,23 @@
+{
+  "originalInputs": [
+    {
+      "name": "index.html",
+      "originalSha256": "4f763f3b08179de345e7875cce9f334768c599002a3d4b49b85b03d15ddc52a0",
+      "preservedSha256": "4f763f3b08179de345e7875cce9f334768c599002a3d4b49b85b03d15ddc52a0",
+      "preserved": true
+    },
+    {
+      "name": "README.md",
+      "originalSha256": "d708fd4432624a9ec7e65f5bebb1ed05cf19e3a25cefc4cd4d04df96ad1922ca",
+      "preservedSha256": "d708fd4432624a9ec7e65f5bebb1ed05cf19e3a25cefc4cd4d04df96ad1922ca",
+      "preserved": true
+    }
+  ],
+  "compiledArtifact": {
+    "path": "supercollider/synthdefs/pulseField.scsyndef",
+    "sha256": "5206d9c91b224d18c215ee9ad257f0cbedc9a9547cb243233750b71fb5f919e7",
+    "magic": "SCgf",
+    "bytes": 404
+  },
+  "ordinaryBundles": []
+}

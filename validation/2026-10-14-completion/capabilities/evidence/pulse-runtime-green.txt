@@ -1,0 +1,9 @@
+✔ Internal ready requires owned group acknowledgement; repeated monitor START sends independent mono twelve-second voices and cleans only its group (97.96375ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3641.489125

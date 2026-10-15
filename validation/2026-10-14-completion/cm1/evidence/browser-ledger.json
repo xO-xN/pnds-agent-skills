@@ -1,0 +1,137 @@
+{
+  "harness": "Codex CUA in-app browser through documented direct Browser/Tab/Playwright APIs",
+  "sourceKind": "maintenance-authored fixture, not a user artwork",
+  "coldMonitor": [
+    "title",
+    "same score panels/pointer/labels as original",
+    "enabled START",
+    "waiting",
+    "player 1/2 waiting",
+    "actual QR image and performer URL"
+  ],
+  "coldPerformer": [
+    "waiting card",
+    "player picker 1..2",
+    "JOIN",
+    "Waiting for START"
+  ],
+  "join": {
+    "identity": 1,
+    "defaults": {
+      "frequency": "0.5",
+      "gain": "0.2"
+    }
+  },
+  "controls": {
+    "method": "two independent real DOM slider ArrowRight actions",
+    "observed": {
+      "frequency": "0.501",
+      "gain": "0.201"
+    },
+    "notClaimed": "simultaneous physical pointer/touch input"
+  },
+  "reload": {
+    "identity": 1,
+    "label": "restored",
+    "controls": {
+      "frequency": "0.501",
+      "gain": "0.201"
+    }
+  },
+  "monitorPresence": "Player 1: online · Player 2: waiting",
+  "lifecycle": "Visible browser START clicked; running and source first section/pointer visually inspected; later ended observed on monitor and performer; repeat START disabled",
+  "rootIndependentVisualComparison": "Root evaluator separately inspected actual original/port p5 cold screenshots: both GATHER/RELEASE panels, amber pointer, WAITING 0.0/8.0 s; no meaningful visual missing, no blank overlay. Source original normal canvas wider.",
+  "hostMessages": {
+    "route": "actual maintenance button → documented pnds:theme/version1/palette and pnds:locale/version1/zh-CN postMessage sent to both actual iframe pages",
+    "monitor": {
+      "background": "rgb(229, 222, 210)",
+      "color": "rgb(80, 75, 66)",
+      "lang": "zh-CN",
+      "title": "共享音色 · CM1 验收工程",
+      "start": "开始"
+    },
+    "performer": {
+      "background": "rgb(16, 29, 33)",
+      "color": "rgb(208, 226, 193)",
+      "lang": "en",
+      "title": "Shared Tone"
+    },
+    "nativeHost": "not observed"
+  },
+  "orientation": {
+    "method": "real performer pages in actual browser iframe CSS viewports; not physical phone",
+    "portrait": {
+      "viewport": [
+        360,
+        800
+      ],
+      "bodyWidth": 360,
+      "scrollWidth": 360,
+      "rangeRects": [
+        [
+          22,
+          346.734375,
+          150,
+          72
+        ],
+        [
+          192,
+          346.734375,
+          150,
+          72
+        ]
+      ]
+    },
+    "landscape": {
+      "viewport": [
+        800,
+        360
+      ],
+      "bodyWidth": 800,
+      "scrollWidth": 800,
+      "bodyHeight": 302,
+      "rangeRects": [
+        [
+          12,
+          186.5,
+          380,
+          72
+        ],
+        [
+          412,
+          186.5,
+          380,
+          72
+        ]
+      ]
+    },
+    "observed": "both controls and output values visibly complete; no blocking rotate overlay; no horizontal overflow",
+    "fix": "landscape waiting-card flex row reduced previous380px content to302px, fitting360px viewport"
+  },
+  "viewportMeta": {
+    "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover",
+    "standalone": "yes"
+  },
+  "consoleErrors": {
+    "monitor": [],
+    "performer": []
+  },
+  "screenshots": [
+    "browser-monitor-cold.jpg",
+    "browser-original-cold.jpg",
+    "browser-monitor-running.jpg",
+    "browser-original-running.jpg",
+    "browser-monitor-ended.jpg",
+    "browser-host-message.jpg",
+    "browser-orientation-frames.jpg"
+  ],
+  "pending": [
+    "physical multitouch",
+    "actual phone QR scan",
+    "physical orientation/lock/unlock",
+    "actual sound/device output",
+    "native App open/embedding",
+    "bundle App installation round trip",
+    "TouchOSC GUI import/device execution"
+  ]
+}

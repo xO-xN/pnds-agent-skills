@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "pending-audio",
+  "name": "Pending Audio",
+  "version": "0.4.2",
+  "scoreServer": {
+    "entry": "server.cjs",
+    "workingDirectory": ".",
+    "performerPort": 6868,
+    "monitorPort": 6869
+  },
+  "audio": {
+    "defaultMode": "internal",
+    "supportedModes": [
+      "internal"
+    ],
+    "outputChannels": 2,
+    "synthdefs": [
+      "supercollider/synthdefs/pending.scsyndef"
+    ],
+    "scsynth": {
+      "blockSize": 64,
+      "audioBusChannels": 128
+    }
+  }
+}

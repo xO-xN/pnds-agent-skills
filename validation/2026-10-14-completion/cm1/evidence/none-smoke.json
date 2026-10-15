@@ -1,0 +1,20 @@
+{
+  "health": {
+    "status": "ready",
+    "projectId": "cm1-shared-tone-validation",
+    "audioMode": "none",
+    "audio": {
+      "status": "disabled",
+      "target": null,
+      "error": null
+    },
+    "scoreServer": {
+      "performerPort": 61956,
+      "monitorPort": 61957,
+      "error": null
+    }
+  },
+  "runtime": "v24.19.0",
+  "mode": "none",
+  "processStopped": true
+}

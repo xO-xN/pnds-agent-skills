@@ -1,0 +1,7 @@
+# Traceable source assessment
+
+Source is the Pulse Field non-triple acceptance fixture produced by scripts/create-harness-fixtures.mjs and supplied at inputs/browser-source. It is a standalone browser index.html/README; no p5, SuperCollider or TouchOSC is required for its investigation. Source index.html:3 creates WebAudio 220Hz oscillator/gain0.05/12s lifetime on each START, allowing overlap; index.html:4 resets the visual clock and widens cyan #61d9ed from100→600px with 100px height over12s. No network/role/identity/recovery exists, and reload resets it. Source code facts are separate from unobserved actual reference audio and scheduling.
+
+The earlier investigation and conditional Internal/External assessment were delivered before implementation. The actual user then confirmed the Internal mono/local monitor-operator/source-only route on 2026-10-14; docs/decisions.md carries it forward. No inference selects None or drops source sound. Original preserved bytes and target contract hashes are in evidence/pulse-source-preservation.json in the maintenance repository. Platform comparison uses the explicitly supplied PNDS App1.6.1 development contract, protocol1, not a claim about a released/installed App.
+
+This is repository-authored controlled acceptance material, not a third-party production work license claim. It can be assessed and adapted without installing sibling Skills. Sound/device/native performance equivalence remains unverified and deferred by the user, rather than being silently accepted as equal.

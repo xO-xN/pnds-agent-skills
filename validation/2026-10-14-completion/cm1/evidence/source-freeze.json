@@ -1,0 +1,19 @@
+{
+  "harness": "Codex desktop collaboration subagent; native Skill invocation unavailable; directly read copied standalone pnds-cm1 resources",
+  "model": "exact inherited model identifier unavailable",
+  "workflow": "explicit CM1 maintenance fixture complete implementation",
+  "target": "PNDS App v1.6.1 supplied development contract; installed /Applications/PNDS.app reports 1.6.2, not used as 1.6.1 acceptance",
+  "skillBase": "af2e151",
+  "sourceKind": "maintenance-authored fixture, not user artwork",
+  "humanAuthorConfirmation": "not fabricated; no user artwork adaptation performed",
+  "sourceFiles": {
+    "README.md": "d9ef4121bc93d7742ac36c7940c863a14cd2d474f8ef071d57deb12700f612e6",
+    "controls.tosc": "4c92a95177afb491fc5cf8dfa320288f531af22cbfa5017c52368a29913775a6",
+    "controls.xml": "4df8d3c76deb47029ccb068755d03ff485fc80505aed9da34cd416c254b09ab2",
+    "index.html": "0d77b530e97dea8dad973cdb6c3c76238e6091b0ace1bbfc3a6835955dd7ccd7",
+    "sketch.js": "04283cd3a22a890091521df8e27c78433e8c3e3bb19fd7eb1b0f436445407a00",
+    "tone.scd": "7818feeaeaf935fd1c358a54453b748daaa11167b84d4db9721b649420ebab31",
+    "vendor/p5-license.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+    "vendor/p5.min.js": "1343f616bf9914da8253faae00201ea5f72772916998bc6add4c2a07e00a662c"
+  }
+}

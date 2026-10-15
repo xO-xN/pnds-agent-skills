@@ -1,0 +1,92 @@
+compiling class library...
+	Found 872 primitives.
+	Compiling directory '/tmp/pnds161-cm1-sc-library'
+	numentries = 848115 / 12603688 = 0.067
+	5567 method selectors, 2264 classes
+	method table size 13484080 bytes, big table size 100829504
+	Number of Symbols 12508
+	Byte Code Size 384245
+	compiled 330 files in 0.21 seconds
+compile done
+localhost : setting clientID to 0.
+internal : setting clientID to 0.
+Class tree inited in 0.08 seconds
+
+
+*** Welcome to SuperCollider 3.14.1. *** For help type cmd-d.
+ERROR: Message 'mkdir' not understood.
+Perhaps you misspelled 'pair', or meant to call 'mkdir' on another receiver?
+RECEIVER:
+Instance of PathName {    (0x74aab00fe8, gc=60, fmt=00, flg=00, set=02)
+  instance variables [2]
+    fullPath : "/tmp/pnds161-capabilities/validation/2026-10..."
+    colonIndices : nil
+}
+ARGS:
+KEYWORD ARGUMENTS:
+PATH: /tmp/pnds161-capabilities/validation/2026-10-14-completion/capabilities/projects/pulse-field/supercollider/compile.scd
+
+PROTECTED CALL STACK:
+	Meta_MethodError:new	0x74ab737780
+		arg this = DoesNotUnderstandError
+		arg what = nil
+		arg receiver = PathName(/tmp/pnds161-capabilities/validation/2026-10-14-completion/capabilities/projects/pulse-field/supercollider/synthdefs)
+	Meta_DoesNotUnderstandError:new	0x74ab739ec0
+		arg this = DoesNotUnderstandError
+		arg receiver = PathName(/tmp/pnds161-capabilities/validation/2026-10-14-completion/capabilities/projects/pulse-field/supercollider/synthdefs)
+		arg selector = mkdir
+		arg args = []
+		arg keywordArgumentPairs = []
+	Object:doesNotUnderstand	0x74abb0c0c0
+		arg this = PathName(/tmp/pnds161-capabilities/validation/2026-10-14-completion/capabilities/projects/pulse-field/supercollider/synthdefs)
+		arg selector = mkdir
+		arg args = nil
+		arg kwargs = nil
+	a FunctionDef	0x74a9855238
+		sourceCode = "{ |out=1, freq=220, gain=0.05, duration=12|
+    var lifespan = EnvGen.kr(Env([1, 1], [duration]), doneAction:2);
+    Out.ar(out, SinOsc.ar(freq, 0, gain) * lifespan);
+}).writeDefFile(output);
+\"Pulse Field SynthDef compiled without audio boot\".postln;
+0.exit;
+)"
+		var output = /tmp/pnds161-capabilities/validation/2026-10-14-completion/capabilities/projects/pulse-field/supercollider/synthdefs
+	a FunctionDef	0x74ab6449c0
+		sourceCode = "<an open Function>"
+	Function:prTry	0x74ab1f39c0
+		arg this = a Function
+		var result = nil
+		var thread = a Thread
+		var next = nil
+		var wasInProtectedFunc = false
+	
+CALL STACK:
+	DoesNotUnderstandError:reportError
+		arg this = <instance of DoesNotUnderstandError>
+	Nil:handleError
+		arg this = nil
+		arg error = <instance of DoesNotUnderstandError>
+	Thread:handleError
+		arg this = <instance of Thread>
+		arg error = <instance of DoesNotUnderstandError>
+	Object:throw
+		arg this = <instance of DoesNotUnderstandError>
+	Function:protect
+		arg this = <instance of Function>
+		arg handler = <instance of Function>
+		var result = <instance of DoesNotUnderstandError>
+	Interpreter:executeFile
+		arg this = <instance of Interpreter>
+		arg pathName = "/tmp/pnds161-capabilities/va..."
+		arg args = [*0]
+		var result = nil
+		var saveExecutingPath = nil
+	Interpreter:interpretCmdLine
+		arg this = <instance of Interpreter>
+	Process:interpretCmdLine
+		arg this = <instance of Main>
+^^ ERROR: Message 'mkdir' not understood.
+Perhaps you misspelled 'pair', or meant to call 'mkdir' on another receiver?
+RECEIVER: PathName(/tmp/pnds161-capabilities/validation/2026-10-14-completion/capabilities/projects/pulse-field/supercollider/synthdefs)
+
+

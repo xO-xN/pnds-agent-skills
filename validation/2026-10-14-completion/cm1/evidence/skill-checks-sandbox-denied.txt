@@ -1,0 +1,84 @@
+
+> pnds-agent-skills@0.2.0 check:all
+> npm run check && npm test
+
+
+> pnds-agent-skills@0.2.0 check
+> node scripts/check-resources.mjs
+
+8 self-contained Skill resources verified
+8 Skill entrypoints, local links and tool syntax checked
+
+> pnds-agent-skills@0.2.0 test
+> node --test test/*.test.mjs
+
+✔ distribution preserves arbitrary runtime assets and excludes only contract paths (43.24725ms)
+✔ missing dependencies or declared SynthDefs block packaging without staging debris (54.002125ms)
+✔ bundling materializes in-project links with permissions and skips external links (37.473583ms)
+✔ packaging rejects escaping paths and protected output and leaves the source unchanged (52.402375ms)
+✔ an explicit overwrite replaces the whole archive without stale entries (91.193459ms)
+✔ TouchOSC parser reports nested controls and rejects non-TouchOSC material (47.734458ms)
+✔ platform lookup reads the supplied App corpus and refuses incomplete evidence (50.595458ms)
+✖ explicit None smoke checks real health on a copy and stops the server (30.023584ms)
+✖ smoke rejects mismatched health and cleans up the copied runtime (30.385ms)
+✔ TouchOSC compressed layouts retain the same observable control inventory (73.095125ms)
+✔ a single copied Skill directory supplies tools and references with no sibling checkout (39.347209ms)
+✔ display names starting with a dash remain archive paths rather than zip options (34.380584ms)
+✔ packaging preserves a destination created while zip is running unless overwrite was authorized (276.231666ms)
+✔ packaging rejects performer addresses that the Host manifest contract rejects (178.464958ms)
+✔ packaging accepts Host-compatible address limits, IPv4 and undeclared values (196.192667ms)
+✔ packaging rejects malformed present optional manifest fields even in None mode (288.961042ms)
+✔ packaging preserves current nullable optional strings and lenient capability declarations (97.14925ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 15
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1656.3745
+
+✖ failing tests:
+
+test at test/tools.test.mjs:145:1
+✖ explicit None smoke checks real health on a copy and stops the server (30.023584ms)
+  AssertionError [ERR_ASSERTION]: smoke: listen EPERM: operation not permitted 127.0.0.1
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (file:///private/tmp/pnds161-cm1/test/tools.test.mjs:150:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/tools.test.mjs:156:1
+✖ smoke rejects mismatched health and cleans up the copied runtime (30.385ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /health|projectId/. Input:
+  
+  'smoke: listen EPERM: operation not permitted 127.0.0.1\n'
+  
+      at TestContext.<anonymous> (file:///private/tmp/pnds161-cm1/test/tools.test.mjs:160:42)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'smoke: listen EPERM: operation not permitted 127.0.0.1\n',
+    expected: /health|projectId/,
+    operator: 'match',
+    diff: 'simple'
+  }

@@ -1,0 +1,64 @@
+{
+  "identityBefore": {
+    "schemaVersion": 1,
+    "id": "existing-score",
+    "name": "Existing Score",
+    "version": "0.4.2",
+    "scoreServer": {
+      "entry": "server.cjs",
+      "workingDirectory": ".",
+      "performerPort": 6868,
+      "monitorPort": 6869
+    },
+    "audio": {
+      "defaultMode": "none",
+      "supportedModes": [
+        "none"
+      ]
+    }
+  },
+  "identityAfter": {
+    "schemaVersion": 1,
+    "id": "existing-score",
+    "name": "Existing Score",
+    "version": "0.4.2",
+    "scoreServer": {
+      "entry": "server.cjs",
+      "workingDirectory": ".",
+      "performerPort": 6868,
+      "monitorPort": 6869
+    },
+    "audio": {
+      "defaultMode": "none",
+      "supportedModes": [
+        "none"
+      ]
+    }
+  },
+  "preservedFiles": [
+    {
+      "path": "manifest.json",
+      "beforeSha256": "c9dd88c8abbb9d228ac55710dba16b3f9643a3847397850e99c31eb0fbe39e22",
+      "afterSha256": "c9dd88c8abbb9d228ac55710dba16b3f9643a3847397850e99c31eb0fbe39e22",
+      "preserved": true
+    },
+    {
+      "path": "public/performer.html",
+      "beforeSha256": "aed2a2c51c45838e5b1d03500963dc3423c878454e7e1322715e6df2fb5e6763",
+      "afterSha256": "aed2a2c51c45838e5b1d03500963dc3423c878454e7e1322715e6df2fb5e6763",
+      "preserved": true
+    },
+    {
+      "path": "public/shared.js",
+      "beforeSha256": "d9bca49f26b3d7e5fb7de15c66076a4e4a9ce5cab8d2e230c3dccf6822f9beb8",
+      "afterSha256": "d9bca49f26b3d7e5fb7de15c66076a4e4a9ce5cab8d2e230c3dccf6822f9beb8",
+      "preserved": true
+    },
+    {
+      "path": "public/monitor.html",
+      "beforeSha256": "156b31ef30b4521b96769cc19073c5da3bfbd3e1240c63bf78a9373649d8925d",
+      "afterSha256": "156b31ef30b4521b96769cc19073c5da3bfbd3e1240c63bf78a9373649d8925d",
+      "preserved": true
+    }
+  ]
+}

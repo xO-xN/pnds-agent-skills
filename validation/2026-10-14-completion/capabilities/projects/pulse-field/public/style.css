@@ -1,0 +1,4 @@
+body {background:#112033;color:#fff;font-family:system-ui;margin:8px;padding-block-start:3rem;}
+#score {height:100px;width:100px;background:#61d9ed;}
+button {font-size:20px;}
+#connection {min-height:1.5em;}

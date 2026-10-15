@@ -1,0 +1,36 @@
+{
+  "source": "inputs/visual-line-browser",
+  "output": "projects/visual-line-port/public",
+  "preservedFiles": [
+    {
+      "path": "monitor.js",
+      "beforeSha256": "0914367ef13f4863bcbd109966ac9da58bb5ea8b59e06d2d86831e1565264c28",
+      "afterSha256": "0914367ef13f4863bcbd109966ac9da58bb5ea8b59e06d2d86831e1565264c28",
+      "preserved": true
+    },
+    {
+      "path": "timeline.js",
+      "beforeSha256": "500e130fccb8c843c775d7eca71d418e22505d770ea95d800c8c0820d97f77bf",
+      "afterSha256": "500e130fccb8c843c775d7eca71d418e22505d770ea95d800c8c0820d97f77bf",
+      "preserved": true
+    },
+    {
+      "path": "performer.html",
+      "beforeSha256": "eecf057909a778921cef3cc999c25843ebf388dedad0c8ddf8615df81da67430",
+      "afterSha256": "eecf057909a778921cef3cc999c25843ebf388dedad0c8ddf8615df81da67430",
+      "preserved": true
+    },
+    {
+      "path": "style.css",
+      "beforeSha256": "837765a2fee8d4f65bdd7a8ada7ac7325a41404df9a1406b84611e57e402e617",
+      "afterSha256": "837765a2fee8d4f65bdd7a8ada7ac7325a41404df9a1406b84611e57e402e617",
+      "preserved": true
+    },
+    {
+      "path": "monitor.html",
+      "beforeSha256": "8ef2f88327a17c2bdc68fb9fe25c99336f5cf648e40b5c8a448d81e8b68bcb48",
+      "afterSha256": "8ef2f88327a17c2bdc68fb9fe25c99336f5cf648e40b5c8a448d81e8b68bcb48",
+      "preserved": true
+    }
+  ]
+}

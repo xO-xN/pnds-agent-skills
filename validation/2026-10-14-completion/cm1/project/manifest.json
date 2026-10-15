@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cm1-shared-tone-validation",
+  "name": "CM1 Shared Tone Validation",
+  "version": "0.1.0",
+  "description": "Maintenance-authored CM1 acceptance fixture; not a user artwork.",
+  "scoreServer": {
+    "entry": "server.cjs",
+    "workingDirectory": ".",
+    "performerPort": 6968,
+    "monitorPort": 6969,
+    "supportsPerformerUrl": true
+  },
+  "audio": {
+    "defaultMode": "internal",
+    "supportedModes": [
+      "internal",
+      "none"
+    ],
+    "outputChannels": 2,
+    "synthdefs": [
+      "supercollider/synthdefs/cm1-tone.scsyndef"
+    ],
+    "scsynth": {
+      "blockSize": 64,
+      "audioBusChannels": 128
+    }
+  }
+}

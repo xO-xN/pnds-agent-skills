@@ -1,0 +1,39 @@
+{
+  "release": "0.2.0",
+  "protocol": 1,
+  "fixtureCustomization": "360px default instead of 480px; project source is not fixed release despite unchanged delivery record",
+  "files": [
+    {
+      "name": "compatibility.json",
+      "inputSha256": "b6a4b297e5839b6209d6bd31338caf703305b583ddd12d61c8ab0c2f52bca303",
+      "outputSha256": "b6a4b297e5839b6209d6bd31338caf703305b583ddd12d61c8ab0c2f52bca303",
+      "upstreamSha256": "b6a4b297e5839b6209d6bd31338caf703305b583ddd12d61c8ab0c2f52bca303",
+      "preserved": true,
+      "matchesRelease": true
+    },
+    {
+      "name": "README.md",
+      "inputSha256": "8ac408cc5085818cb09741630f343ad83981e28f3c24fe335ec60654bbfc51f0",
+      "outputSha256": "8ac408cc5085818cb09741630f343ad83981e28f3c24fe335ec60654bbfc51f0",
+      "upstreamSha256": "175cbefa9145f65a2752cc7b944c20c6b47fd4f03ebfca6d8b90e941c79272a8",
+      "preserved": true,
+      "matchesRelease": false
+    },
+    {
+      "name": "package.json",
+      "inputSha256": "1ae37eaf58b0a679dec937ab58ec816c769d497468ed2c132f8517db27fc1909",
+      "outputSha256": "1ae37eaf58b0a679dec937ab58ec816c769d497468ed2c132f8517db27fc1909",
+      "upstreamSha256": "1ae37eaf58b0a679dec937ab58ec816c769d497468ed2c132f8517db27fc1909",
+      "preserved": true,
+      "matchesRelease": true
+    },
+    {
+      "name": "qr.js",
+      "inputSha256": "bbfc8a9c1cb90b285f766a223aa305807d0a67cd945a77aa6e4fd71a238cb689",
+      "outputSha256": "bbfc8a9c1cb90b285f766a223aa305807d0a67cd945a77aa6e4fd71a238cb689",
+      "upstreamSha256": "949d34e74878f95077459bcb249c997a6f581718b29cb2cb3bee3b841aa7b8c9",
+      "preserved": true,
+      "matchesRelease": false
+    }
+  ]
+}

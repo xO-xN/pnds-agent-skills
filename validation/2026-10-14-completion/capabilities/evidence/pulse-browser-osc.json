@@ -1,0 +1,118 @@
+[
+  {
+    "date": "2026-10-14T15:44:20.403Z",
+    "address": "/d_load",
+    "args": [
+      "/private/tmp/pnds161-acceptance-projects/pulse-field/supercollider/synthdefs/pulseField.scsyndef"
+    ]
+  },
+  {
+    "date": "2026-10-14T15:44:20.405Z",
+    "address": "/sync",
+    "args": [
+      1
+    ]
+  },
+  {
+    "date": "2026-10-14T15:44:20.406Z",
+    "address": "/g_new",
+    "args": [
+      1000,
+      1,
+      0
+    ]
+  },
+  {
+    "date": "2026-10-14T15:44:20.406Z",
+    "address": "/sync",
+    "args": [
+      2
+    ]
+  },
+  {
+    "date": "2026-10-14T15:44:59.923Z",
+    "address": "/s_new",
+    "args": [
+      "pulseField",
+      1001,
+      1,
+      1000,
+      "out",
+      8,
+      "freq",
+      220,
+      "gain",
+      0.05000000074505806,
+      "duration",
+      12
+    ]
+  },
+  {
+    "date": "2026-10-14T15:45:35.549Z",
+    "address": "/s_new",
+    "args": [
+      "pulseField",
+      1002,
+      1,
+      1000,
+      "out",
+      8,
+      "freq",
+      220,
+      "gain",
+      0.05000000074505806,
+      "duration",
+      12
+    ]
+  },
+  {
+    "date": "2026-10-14T15:46:13.769Z",
+    "address": "/s_new",
+    "args": [
+      "pulseField",
+      1003,
+      1,
+      1000,
+      "out",
+      8,
+      "freq",
+      220,
+      "gain",
+      0.05000000074505806,
+      "duration",
+      12
+    ]
+  },
+  {
+    "date": "2026-10-14T15:46:14.017Z",
+    "address": "/s_new",
+    "args": [
+      "pulseField",
+      1004,
+      1,
+      1000,
+      "out",
+      8,
+      "freq",
+      220,
+      "gain",
+      0.05000000074505806,
+      "duration",
+      12
+    ]
+  },
+  {
+    "date": "2026-10-14T15:49:17.324Z",
+    "address": "/n_free",
+    "args": [
+      1000
+    ]
+  },
+  {
+    "date": "2026-10-14T15:49:17.325Z",
+    "address": "/sync",
+    "args": [
+      3
+    ]
+  }
+]

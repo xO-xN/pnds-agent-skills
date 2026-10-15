@@ -1,0 +1,7 @@
+{
+  "observed": "A hidden IAB monitor tab returned actual cold DOM: heading, enabled START, waiting, both players waiting, QR image and fallback performer address.",
+  "unobserved": "Physical phone, native App/WKWebView and sound deferred; see completed browser-ledger.json for actual browser observations.",
+  "phone": "pending, explicitly deferred by user",
+  "sound": "pending, explicitly deferred by user",
+  "resolution": "Documented direct Tab.playwright and Tab.screenshot APIs succeeded; native facade visibility/getScreenshot did not. Global viewport targeting proved unsuitable; precise actual iframe viewport checks and full screenshots completed instead. No lower-level computer automation used."
+}

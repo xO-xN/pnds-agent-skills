@@ -1,0 +1,5 @@
+<!doctype html><html><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pulse Field</title><style>body{background:#112033;color:#fff;font-family:system-ui}#score{height:100px;width:100px;background:#61d9ed}button{font-size:20px}</style><button id="start">START</button><div id="score"></div><script>
+let began=0, audio; const duration=12000;
+document.querySelector('#start').onclick=()=>{audio??=new AudioContext();audio.resume();const oscillator=audio.createOscillator(), gain=audio.createGain();oscillator.frequency.value=220;gain.gain.value=0.05;oscillator.connect(gain).connect(audio.destination);oscillator.start();oscillator.stop(audio.currentTime+12);began=performance.now();};
+function frame(t){if(began){const elapsed=t-began;document.querySelector('#score').style.width=Math.min(600,100+elapsed/24)+'px';if(elapsed>=duration)began=0;}requestAnimationFrame(frame);}requestAnimationFrame(frame);
+</script></html>

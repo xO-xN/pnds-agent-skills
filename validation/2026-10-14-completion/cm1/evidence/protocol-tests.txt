@@ -1,0 +1,15 @@
+
+> cm1-shared-tone-validation@0.1.0 test
+> node --test tests/*.test.cjs
+
+✔ Internal group creation failure never reports ready (87.24425ms)
+✔ Internal wire protocol owns a group, maps shared tone to Host bus and cleans only its resources (8126.040208ms)
+✔ CM1 cold state, START and bounded end through real server (8340.068083ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8392.709542

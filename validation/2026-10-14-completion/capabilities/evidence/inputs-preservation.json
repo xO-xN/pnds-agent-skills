@@ -1,0 +1,74 @@
+[
+  {
+    "input": "inputs/browser-source/README.md",
+    "originalSha256": "d708fd4432624a9ec7e65f5bebb1ed05cf19e3a25cefc4cd4d04df96ad1922ca",
+    "savedSha256": "d708fd4432624a9ec7e65f5bebb1ed05cf19e3a25cefc4cd4d04df96ad1922ca",
+    "unchanged": true
+  },
+  {
+    "input": "inputs/browser-source/index.html",
+    "originalSha256": "4f763f3b08179de345e7875cce9f334768c599002a3d4b49b85b03d15ddc52a0",
+    "savedSha256": "4f763f3b08179de345e7875cce9f334768c599002a3d4b49b85b03d15ddc52a0",
+    "unchanged": true
+  },
+  {
+    "input": "inputs/partial-source/description.txt",
+    "originalSha256": "da8a497258462bcc37abb3d7997e4d135d2200aa29e76b07128b675031884046",
+    "savedSha256": "da8a497258462bcc37abb3d7997e4d135d2200aa29e76b07128b675031884046",
+    "unchanged": true
+  },
+  {
+    "input": "inputs/existing-project/docs/creator-handoff.md",
+    "originalSha256": "f7b434d75d577cf6d80cbfc805d9b58359178f908c782480b00e71af10d5d85d",
+    "savedSha256": "f7b434d75d577cf6d80cbfc805d9b58359178f908c782480b00e71af10d5d85d",
+    "unchanged": true
+  },
+  {
+    "input": "inputs/existing-project/docs/decisions.md",
+    "originalSha256": "7bacce2b3d88a3edef1ab322eef02bec21c31e236786cd90f8ebaa9bbcf12a64",
+    "savedSha256": "7bacce2b3d88a3edef1ab322eef02bec21c31e236786cd90f8ebaa9bbcf12a64",
+    "unchanged": true
+  },
+  {
+    "input": "inputs/existing-project/docs/validation.md",
+    "originalSha256": "02ef46f12cec80ff14263570caecfd793bb51b0676f67f1ac36cbeeeaba17f71",
+    "savedSha256": "02ef46f12cec80ff14263570caecfd793bb51b0676f67f1ac36cbeeeaba17f71",
+    "unchanged": true
+  },
+  {
+    "input": "inputs/existing-project/manifest.json",
+    "originalSha256": "c9dd88c8abbb9d228ac55710dba16b3f9643a3847397850e99c31eb0fbe39e22",
+    "savedSha256": "c9dd88c8abbb9d228ac55710dba16b3f9643a3847397850e99c31eb0fbe39e22",
+    "unchanged": true
+  },
+  {
+    "input": "inputs/existing-project/package.json",
+    "originalSha256": "3717788bffd7d59f76465e6501cea550968d97d125fccbcfaa60cb30413c1bfc",
+    "savedSha256": "3717788bffd7d59f76465e6501cea550968d97d125fccbcfaa60cb30413c1bfc",
+    "unchanged": true
+  },
+  {
+    "input": "inputs/existing-project/public/monitor.html",
+    "originalSha256": "76b7b990fcbd94fd558f4486b813c8f6c8705c6fd9311bd5eb3ce8f2c9d8cfdf",
+    "savedSha256": "76b7b990fcbd94fd558f4486b813c8f6c8705c6fd9311bd5eb3ce8f2c9d8cfdf",
+    "unchanged": true
+  },
+  {
+    "input": "inputs/existing-project/public/performer.html",
+    "originalSha256": "aed2a2c51c45838e5b1d03500963dc3423c878454e7e1322715e6df2fb5e6763",
+    "savedSha256": "aed2a2c51c45838e5b1d03500963dc3423c878454e7e1322715e6df2fb5e6763",
+    "unchanged": true
+  },
+  {
+    "input": "inputs/existing-project/public/shared.js",
+    "originalSha256": "d9bca49f26b3d7e5fb7de15c66076a4e4a9ce5cab8d2e230c3dccf6822f9beb8",
+    "savedSha256": "d9bca49f26b3d7e5fb7de15c66076a4e4a9ce5cab8d2e230c3dccf6822f9beb8",
+    "unchanged": true
+  },
+  {
+    "input": "inputs/existing-project/server.cjs",
+    "originalSha256": "7fd8a623f327a5e90bc2fca215136aa9c2183e9a9815785afef1616edd87bf40",
+    "savedSha256": "7fd8a623f327a5e90bc2fca215136aa9c2183e9a9815785afef1616edd87bf40",
+    "unchanged": true
+  }
+]

@@ -1,0 +1,6 @@
+
+> pnds-agent-skills@0.2.0 check
+> node scripts/check-resources.mjs
+
+8 self-contained Skill resources verified
+8 Skill entrypoints, local links and tool syntax checked

@@ -1,0 +1,42 @@
+{
+  "serviceStopped": true,
+  "healthPortsUnreachable": [
+    6878,
+    6879
+  ],
+  "finalOSC": [
+    {
+      "date": "2026-10-14T15:46:14.017Z",
+      "address": "/s_new",
+      "args": [
+        "pulseField",
+        1004,
+        1,
+        1000,
+        "out",
+        8,
+        "freq",
+        220,
+        "gain",
+        0.05000000074505806,
+        "duration",
+        12
+      ]
+    },
+    {
+      "date": "2026-10-14T15:49:17.324Z",
+      "address": "/n_free",
+      "args": [
+        1000
+      ]
+    },
+    {
+      "date": "2026-10-14T15:49:17.325Z",
+      "address": "/sync",
+      "args": [
+        3
+      ]
+    }
+  ],
+  "noEngineQuit": true
+}

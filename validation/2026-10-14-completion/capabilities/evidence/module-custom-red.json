@@ -1,0 +1,11 @@
+{
+  "command": "/usr/local/bin/node",
+  "args": [
+    "--test",
+    "/tmp/pnds161-acceptance-projects/module-custom/tests/maintenance.test.cjs"
+  ],
+  "cwd": "/tmp/pnds161-acceptance-projects/module-custom",
+  "exit": 1,
+  "stdout": "✔ selected LAN reaches original performer/monitor after matching loopback health; clean stop (118.874208ms)\n✔ unsupported Internal mode exits before ready and preserves None policy (88.9085ms)\n✖ project custom QR source survives maintenance and still serves 360px PNG plus project header (132.930625ms)\nℹ tests 3\nℹ suites 0\nℹ pass 2\nℹ fail 1\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 2365.026583\n\n✖ failing tests:\n\ntest at tests/maintenance.test.cjs:38:1\n✖ project custom QR source survives maintenance and still serves 360px PNG plus project header (132.930625ms)\n  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n  + actual - expected\n  \n  + null\n  - 'project-custom'\n  \n      at TestContext.<anonymous> (/private/tmp/pnds161-acceptance-projects/module-custom/tests/maintenance.test.cjs:44:9)\n      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n      at async Test.run (node:internal/test_runner/test:1389:7)\n      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {\n    generatedMessage: true,\n    code: 'ERR_ASSERTION',\n    actual: null,\n    expected: 'project-custom',\n    operator: 'strictEqual',\n    diff: 'simple'\n  }\n",
+  "stderr": ""
+}

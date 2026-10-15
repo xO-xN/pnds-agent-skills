@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "existing-score",
+  "name": "Existing Score",
+  "version": "0.4.2",
+  "scoreServer": {
+    "entry": "server.cjs",
+    "workingDirectory": ".",
+    "performerPort": 6868,
+    "monitorPort": 6869
+  },
+  "audio": {
+    "defaultMode": "none",
+    "supportedModes": [
+      "none"
+    ]
+  }
+}

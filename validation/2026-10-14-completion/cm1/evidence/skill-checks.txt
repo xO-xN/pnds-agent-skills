@@ -1,0 +1,39 @@
+
+> pnds-agent-skills@0.2.0 check:all
+> npm run check && npm test
+
+
+> pnds-agent-skills@0.2.0 check
+> node scripts/check-resources.mjs
+
+8 self-contained Skill resources verified
+8 Skill entrypoints, local links and tool syntax checked
+
+> pnds-agent-skills@0.2.0 test
+> node --test test/*.test.mjs
+
+✔ distribution preserves arbitrary runtime assets and excludes only contract paths (41.850792ms)
+✔ missing dependencies or declared SynthDefs block packaging without staging debris (53.471083ms)
+✔ bundling materializes in-project links with permissions and skips external links (35.557458ms)
+✔ packaging rejects escaping paths and protected output and leaves the source unchanged (54.565541ms)
+✔ an explicit overwrite replaces the whole archive without stale entries (93.374375ms)
+✔ TouchOSC parser reports nested controls and rejects non-TouchOSC material (48.5785ms)
+✔ platform lookup reads the supplied App corpus and refuses incomplete evidence (50.015375ms)
+✔ explicit None smoke checks real health on a copy and stops the server (1610.879333ms)
+✔ smoke rejects mismatched health and cleans up the copied runtime (1632.792541ms)
+✔ TouchOSC compressed layouts retain the same observable control inventory (99.713792ms)
+✔ a single copied Skill directory supplies tools and references with no sibling checkout (36.158667ms)
+✔ display names starting with a dash remain archive paths rather than zip options (35.706209ms)
+✔ packaging preserves a destination created while zip is running unless overwrite was authorized (281.886084ms)
+✔ packaging rejects performer addresses that the Host manifest contract rejects (186.099625ms)
+✔ packaging accepts Host-compatible address limits, IPv4 and undeclared values (187.531208ms)
+✔ packaging rejects malformed present optional manifest fields even in None mode (299.467208ms)
+✔ packaging preserves current nullable optional strings and lenient capability declarations (100.677584ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4887.465292

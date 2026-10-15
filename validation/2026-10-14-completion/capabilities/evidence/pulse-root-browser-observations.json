@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-14",
+  "harness": "root agent working browser tab harness (capability subagent CUA had no browser)",
+  "url": "http://127.0.0.1:6879/",
+  "source": "Actual root tool observations conveyed to capability_acceptance; root chat retains screenshots, no PNG files saved in repo",
+  "cold": {
+    "startVisible": true,
+    "blankOverlay": false,
+    "scoreWidth": 100,
+    "scoreHeight": 100,
+    "background": "rgb(97, 217, 237)"
+  },
+  "firstStart": {
+    "observedWidth": 110.039,
+    "observedHeight": 100,
+    "growthVisible": true
+  },
+  "end": {
+    "observedWidth": 600,
+    "observedHeight": 100
+  },
+  "repeatStart": {
+    "observedWidth": 107.8125,
+    "observedHeight": 100,
+    "visualClockReset": true,
+    "buttonRemainedEnabled": true
+  },
+  "quickThirdFourth": {
+    "commands": 2,
+    "observedVisualResetGrowth": true,
+    "actualOSCNodeIds": [
+      1003,
+      1004
+    ],
+    "intervalMs": 248,
+    "eachDurationSeconds": 12
+  },
+  "warmReload": {
+    "observedWidth": 100,
+    "observedHeight": 100,
+    "startVisible": true,
+    "newDocumentStopped": true
+  },
+  "resizeAttempt": {
+    "requestedViewport": [
+      800,
+      500
+    ],
+    "actualDOMInnerWidth": 1280,
+    "result": "API returned but actual viewport did not change; no resize pass claimed"
+  },
+  "nativeWindowResize": "not verified, user deferred",
+  "audio": "controlled UDP receiver only; no sound validation",
+  "cleanup": "serviceStopped, ports6878/6879 unreachable, group-only free then sync, no /quit"
+}

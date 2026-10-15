@@ -4,7 +4,7 @@ After the author confirms the plan, follow bundled runtime/module capabilities a
 
 ## Structure and audio
 
-Prepare the declared entry/working directory, both HTTP servers, performer health and project-owned resources. Production dependencies are local at runtime. Use a discovered sclang for compiled SynthDefs; runtime never needs sclang. Retain source bodies and mapping math; adapt Internal output bus to `PNDS_AUDIO_OUTPUT_BUS` and channel count. Any audible difference is an author decision. All declared synthdefs must exist for distribution even if the current smoke uses None.
+Prepare the declared entry/working directory, both HTTP servers, performer health and project-owned resources. Production dependencies are local at runtime. Use a discovered sclang for compiled SynthDefs; runtime never needs sclang. Check the actual compiler environment before execution: user startup files may boot audio even during compilation. Use an isolated standard class-library/startup configuration for a compile-only task without editing the user configuration; `-a` alone excludes default libraries/extensions but does not guarantee user startup files are skipped. Record actual compilation separately from any audio/device run. Retain source bodies and mapping math; adapt Internal output bus to `PNDS_AUDIO_OUTPUT_BUS` and channel count. Any audible difference is an author decision. All declared synthdefs must exist for distribution even if the current smoke uses None.
 
 CM1 remains a local Mac plus LAN phones, no hub/roles/telematic. The work's voice model determines per-player or shared synths; the player-ID UI is not an audio ownership rule. OSCdef/routine semantics move into project logic with confirmed mappings and timing.
 

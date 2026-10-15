@@ -1,0 +1,325 @@
+{
+  "date": "2026-10-14",
+  "harness": "Codex collaboration capability_acceptance subagent",
+  "model": "inherited exact model ID not exposed",
+  "nativeSkillInvocationAvailable": false,
+  "skillReads": 7,
+  "node": "v24.19.0",
+  "platform": "darwin",
+  "arch": "arm64",
+  "platformEvidence": "explicit App 1.6.1 development corpus; not installed/released App",
+  "skills": [
+    {
+      "skill": "pnds-investigate",
+      "isolatedDirectory": "/var/folders/45/snb4q9n13nvd_q69cwyht8n40000gn/T/pnds-investigate-independent-y5nmi9/pnds-investigate",
+      "manifestSha256": "02fb97e2c6f9d35824e9a524a71d4eaa3cd79d9b151bd7db1ba4e64cf711c0ac",
+      "resourceManifest": {
+        "formatVersion": 1,
+        "skill": "pnds-investigate",
+        "workflowVersion": "0.2.0",
+        "hostProtocol": 1,
+        "dependencies": {
+          "node": ">=24 <25",
+          "pack": [
+            "zip"
+          ],
+          "archiveInspection": [
+            "unzip"
+          ],
+          "internalCompilation": [
+            "sclang when needed"
+          ],
+          "platformManual": "installed App corpus or explicitly matched versioned source"
+        },
+        "files": {
+          "SKILL.md": "a9d464ac34f8d1bba0494f6d868368363ac3b4b7f5b3b17300ca925b1066636b",
+          "capabilities/adapt-runtime.md": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "capabilities/assess.md": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "capabilities/integrate-modules.md": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "capabilities/investigate.md": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "capabilities/validate-handoff.md": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "reference/module-guide.md": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "reference/platform-sources.md": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "reference/records.md": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "reference/tools.md": "34d0aa685623c7f9d21bf40982e7f2f2dd7a4c7f9fec109b16d39d03c682b607",
+          "tools/pack.mjs": "f32cdd13356b59163f28dad427e372146158bceda784721b464ecfa9f6f8f2c4",
+          "tools/platform-info.mjs": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "tools/project-files.mjs": "7a0ad30f564f41f21d559b096093a719ec6f85b11db17702a7e0e2f814bb09d7",
+          "tools/smoke.mjs": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "tools/tosc-parser.mjs": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b"
+        }
+      },
+      "nativeInvocations": 0,
+      "directEntryReads": 1
+    },
+    {
+      "skill": "pnds-assess",
+      "isolatedDirectory": "/var/folders/45/snb4q9n13nvd_q69cwyht8n40000gn/T/pnds-assess-independent-S71u7V/pnds-assess",
+      "manifestSha256": "41121cc2cff7b7da0ac44f53b6919247a590ee4d5f99daeb49f91886c796db57",
+      "resourceManifest": {
+        "formatVersion": 1,
+        "skill": "pnds-assess",
+        "workflowVersion": "0.2.0",
+        "hostProtocol": 1,
+        "dependencies": {
+          "node": ">=24 <25",
+          "pack": [
+            "zip"
+          ],
+          "archiveInspection": [
+            "unzip"
+          ],
+          "internalCompilation": [
+            "sclang when needed"
+          ],
+          "platformManual": "installed App corpus or explicitly matched versioned source"
+        },
+        "files": {
+          "SKILL.md": "a7b7a480009c22bc440b4c4b67c2c37f6951aafb3cf0b1204c1b179c18140140",
+          "capabilities/adapt-runtime.md": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "capabilities/assess.md": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "capabilities/integrate-modules.md": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "capabilities/investigate.md": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "capabilities/validate-handoff.md": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "reference/module-guide.md": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "reference/platform-sources.md": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "reference/records.md": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "reference/tools.md": "34d0aa685623c7f9d21bf40982e7f2f2dd7a4c7f9fec109b16d39d03c682b607",
+          "tools/pack.mjs": "f32cdd13356b59163f28dad427e372146158bceda784721b464ecfa9f6f8f2c4",
+          "tools/platform-info.mjs": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "tools/project-files.mjs": "7a0ad30f564f41f21d559b096093a719ec6f85b11db17702a7e0e2f814bb09d7",
+          "tools/smoke.mjs": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "tools/tosc-parser.mjs": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b"
+        }
+      },
+      "nativeInvocations": 0,
+      "directEntryReads": 1
+    },
+    {
+      "skill": "pnds-runtime",
+      "isolatedDirectory": "/var/folders/45/snb4q9n13nvd_q69cwyht8n40000gn/T/pnds-runtime-independent-6pM3LN/pnds-runtime",
+      "manifestSha256": "495e4a865fac9e8d566b386c9e3cfeb678b9420650a81e923bf3873cbe6fecbb",
+      "resourceManifest": {
+        "formatVersion": 1,
+        "skill": "pnds-runtime",
+        "workflowVersion": "0.2.0",
+        "hostProtocol": 1,
+        "dependencies": {
+          "node": ">=24 <25",
+          "pack": [
+            "zip"
+          ],
+          "archiveInspection": [
+            "unzip"
+          ],
+          "internalCompilation": [
+            "sclang when needed"
+          ],
+          "platformManual": "installed App corpus or explicitly matched versioned source"
+        },
+        "files": {
+          "SKILL.md": "c4fe195f0cc61c03889bc3ddf6e4ad773f6e0e146d6eed6d6da261e6767c3e1e",
+          "capabilities/adapt-runtime.md": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "capabilities/assess.md": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "capabilities/integrate-modules.md": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "capabilities/investigate.md": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "capabilities/validate-handoff.md": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "reference/module-guide.md": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "reference/platform-sources.md": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "reference/records.md": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "reference/tools.md": "34d0aa685623c7f9d21bf40982e7f2f2dd7a4c7f9fec109b16d39d03c682b607",
+          "tools/pack.mjs": "f32cdd13356b59163f28dad427e372146158bceda784721b464ecfa9f6f8f2c4",
+          "tools/platform-info.mjs": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "tools/project-files.mjs": "7a0ad30f564f41f21d559b096093a719ec6f85b11db17702a7e0e2f814bb09d7",
+          "tools/smoke.mjs": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "tools/tosc-parser.mjs": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b"
+        }
+      },
+      "nativeInvocations": 0,
+      "directEntryReads": 1
+    },
+    {
+      "skill": "pnds-modules",
+      "isolatedDirectory": "/var/folders/45/snb4q9n13nvd_q69cwyht8n40000gn/T/pnds-modules-independent-uIoy7D/pnds-modules",
+      "manifestSha256": "ae2fbe61cb0b50fb9924335bcaf32d733ccb2a67bf2417f9e50665219dfeafd3",
+      "resourceManifest": {
+        "formatVersion": 1,
+        "skill": "pnds-modules",
+        "workflowVersion": "0.2.0",
+        "hostProtocol": 1,
+        "dependencies": {
+          "node": ">=24 <25",
+          "pack": [
+            "zip"
+          ],
+          "archiveInspection": [
+            "unzip"
+          ],
+          "internalCompilation": [
+            "sclang when needed"
+          ],
+          "platformManual": "installed App corpus or explicitly matched versioned source"
+        },
+        "files": {
+          "SKILL.md": "f52523512989a40607562e9ad18c7414d316783be9de35552bfb9d2d0b5b6a29",
+          "capabilities/adapt-runtime.md": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "capabilities/assess.md": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "capabilities/integrate-modules.md": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "capabilities/investigate.md": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "capabilities/validate-handoff.md": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "reference/module-guide.md": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "reference/platform-sources.md": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "reference/records.md": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "reference/tools.md": "34d0aa685623c7f9d21bf40982e7f2f2dd7a4c7f9fec109b16d39d03c682b607",
+          "tools/pack.mjs": "f32cdd13356b59163f28dad427e372146158bceda784721b464ecfa9f6f8f2c4",
+          "tools/platform-info.mjs": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "tools/project-files.mjs": "7a0ad30f564f41f21d559b096093a719ec6f85b11db17702a7e0e2f814bb09d7",
+          "tools/smoke.mjs": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "tools/tosc-parser.mjs": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b"
+        }
+      },
+      "nativeInvocations": 0,
+      "directEntryReads": 1
+    },
+    {
+      "skill": "pnds-validate",
+      "isolatedDirectory": "/var/folders/45/snb4q9n13nvd_q69cwyht8n40000gn/T/pnds-validate-independent-n2e69z/pnds-validate",
+      "manifestSha256": "0e8cfdf7b8218b9d8233d9ccbe41fe5d1f605351bb855ba7edc1edad86364876",
+      "resourceManifest": {
+        "formatVersion": 1,
+        "skill": "pnds-validate",
+        "workflowVersion": "0.2.0",
+        "hostProtocol": 1,
+        "dependencies": {
+          "node": ">=24 <25",
+          "pack": [
+            "zip"
+          ],
+          "archiveInspection": [
+            "unzip"
+          ],
+          "internalCompilation": [
+            "sclang when needed"
+          ],
+          "platformManual": "installed App corpus or explicitly matched versioned source"
+        },
+        "files": {
+          "SKILL.md": "3e3dc38b5bdba93fbe872643d14973501c8a639d68eee4085cf1266a162c40ac",
+          "capabilities/adapt-runtime.md": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "capabilities/assess.md": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "capabilities/integrate-modules.md": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "capabilities/investigate.md": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "capabilities/validate-handoff.md": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "reference/module-guide.md": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "reference/platform-sources.md": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "reference/records.md": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "reference/tools.md": "34d0aa685623c7f9d21bf40982e7f2f2dd7a4c7f9fec109b16d39d03c682b607",
+          "tools/pack.mjs": "f32cdd13356b59163f28dad427e372146158bceda784721b464ecfa9f6f8f2c4",
+          "tools/platform-info.mjs": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "tools/project-files.mjs": "7a0ad30f564f41f21d559b096093a719ec6f85b11db17702a7e0e2f814bb09d7",
+          "tools/smoke.mjs": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "tools/tosc-parser.mjs": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b"
+        }
+      },
+      "nativeInvocations": 0,
+      "directEntryReads": 1
+    },
+    {
+      "skill": "pnds-create",
+      "isolatedDirectory": "/var/folders/45/snb4q9n13nvd_q69cwyht8n40000gn/T/pnds-create-independent-jhrrUB/pnds-create",
+      "manifestSha256": "7e64b7fef4b0979553b8baabd7a3c7d26addf5837aaa6562e5e29e5bd9358468",
+      "resourceManifest": {
+        "formatVersion": 1,
+        "skill": "pnds-create",
+        "workflowVersion": "0.2.0",
+        "hostProtocol": 1,
+        "dependencies": {
+          "node": ">=24 <25",
+          "pack": [
+            "zip"
+          ],
+          "archiveInspection": [
+            "unzip"
+          ],
+          "internalCompilation": [
+            "sclang when needed"
+          ],
+          "platformManual": "installed App corpus or explicitly matched versioned source"
+        },
+        "files": {
+          "SKILL.md": "ee0fda8c961bbd25fec53ef9aff9fd1b4e0d046bac6ec1697624baad44a8d535",
+          "capabilities/adapt-runtime.md": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "capabilities/assess.md": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "capabilities/integrate-modules.md": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "capabilities/investigate.md": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "capabilities/validate-handoff.md": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "reference/module-guide.md": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "reference/platform-sources.md": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "reference/records.md": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "reference/tools.md": "34d0aa685623c7f9d21bf40982e7f2f2dd7a4c7f9fec109b16d39d03c682b607",
+          "tools/pack.mjs": "f32cdd13356b59163f28dad427e372146158bceda784721b464ecfa9f6f8f2c4",
+          "tools/platform-info.mjs": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "tools/project-files.mjs": "7a0ad30f564f41f21d559b096093a719ec6f85b11db17702a7e0e2f814bb09d7",
+          "tools/smoke.mjs": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "tools/tosc-parser.mjs": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b"
+        }
+      },
+      "nativeInvocations": 0,
+      "directEntryReads": 1
+    },
+    {
+      "skill": "pnds-port",
+      "isolatedDirectory": "/var/folders/45/snb4q9n13nvd_q69cwyht8n40000gn/T/pnds-port-independent-Kn099t/pnds-port",
+      "manifestSha256": "54c4a82a7ecce2d5c10ae61a716f3ef94b17001a8ed1d8c46445fc5f3d4a80d8",
+      "resourceManifest": {
+        "formatVersion": 1,
+        "skill": "pnds-port",
+        "workflowVersion": "0.2.0",
+        "hostProtocol": 1,
+        "dependencies": {
+          "node": ">=24 <25",
+          "pack": [
+            "zip"
+          ],
+          "archiveInspection": [
+            "unzip"
+          ],
+          "internalCompilation": [
+            "sclang when needed"
+          ],
+          "platformManual": "installed App corpus or explicitly matched versioned source"
+        },
+        "files": {
+          "SKILL.md": "ea2aa3e2b6f637300c1be4932882fb0361d5583bdd908e641106e51d2680dfe4",
+          "capabilities/adapt-runtime.md": "fe0a0710f52df709ff9af781f9c7b516dd1260830c9ab3ebe3dac7c820b116ce",
+          "capabilities/assess.md": "f76016e8fce6c03b27fb7284285b278d441a48800f32471ac7b931a2489e1d8d",
+          "capabilities/integrate-modules.md": "810c7fa0e3ab1505b7694a1d0e0792ed811e87a54994549f56149d5958fe8587",
+          "capabilities/investigate.md": "733b19175fe1fdb7ff59282cea791b85392a83dd1a8ec85c61d82834fc88ce22",
+          "capabilities/validate-handoff.md": "a60b6c3ba1034a4e9738b470f4d7c2fbfd7388fdb794398ed2b8c481a7ef0d83",
+          "design/CONTEXT.md": "16eca0cf377c982331f4a2e1cb5f4fd45dca59aa7287f8433adfea4d11536fce",
+          "design/adr/0001-telematic-multi-endpoint.md": "4edc7ee68c792fec57ac61ffa23eef80fd8c06e05241474ccf686448936b578b",
+          "design/adr/0002-authority-model-per-work.md": "37d1c57eb08090a9eaeb96a78c2c190076353325ffd03430591abe4a183ffca2",
+          "design/adr/0003-clock-drift-tolerance.md": "fb2959a1bb4d394f6d873f7dbab0d104bddc914669c24b0fe2ab89d4f00a938f",
+          "reference/analysis.md": "360f286eac129324ccd86b3d99fe4245313bf96e8a39b79eac498184e2476a43",
+          "reference/case-co-here.md": "287488274f633c4bb45e8bb3094f6655faf8d7b395e6d2c9f2e178f500463170",
+          "reference/conversion-playbook.md": "6736f8c02eee63090af2d87c0790ab2e44aee005d6897e852ab0da50d82974d0",
+          "reference/input-validation.md": "d36091026606508c3cbfd4b4828308d9ec6eb303892055452a2185b1e19499e2",
+          "reference/legacy-scope.md": "6e5b4104aab341ad5d733228b5cfeebfe797b93866f558d34742691808c590a3",
+          "reference/module-guide.md": "2994fe98ac38ef0dc32afbc312442529166a9bbcde6e4c02bfc4e33fc30e1a85",
+          "reference/packaging.md": "9d6d1950ad919959b9ddbf7b27f0e9387cf031f4d390095846ec8c6be1e49be4",
+          "reference/platform-sources.md": "169423d35688f66e6fe21fc447f06a25cc0cf5c9ee8443530e2a7b54f9695e84",
+          "reference/port-map-template.md": "a2c86931557214cc1f0749dcf12f255d9cbaff80ada1103f8fbd417d25e000c7",
+          "reference/records.md": "3dd7d2cbfbcfe538f916a78efc17a9a998d462fd75296eb2eabd9cb75af014db",
+          "reference/tools.md": "34d0aa685623c7f9d21bf40982e7f2f2dd7a4c7f9fec109b16d39d03c682b607",
+          "tools/pack.mjs": "f32cdd13356b59163f28dad427e372146158bceda784721b464ecfa9f6f8f2c4",
+          "tools/platform-info.mjs": "5b1b419bbae68de7ea5bab1e687accecb15de1af8f43cfff58c9d7f14663f69b",
+          "tools/project-files.mjs": "7a0ad30f564f41f21d559b096093a719ec6f85b11db17702a7e0e2f814bb09d7",
+          "tools/smoke.mjs": "d1968400f0398ebef45007f0ffd284dad2f6c168bfec22fb7665c52a2940f2a3",
+          "tools/tosc-parser.mjs": "74246927d4d6223b3ffb2a6312eb5283d55fa4316a60c242a44963667367473b"
+        }
+      },
+      "nativeInvocations": 0,
+      "directEntryReads": 1
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+✖ selected LAN reaches original performer/monitor after matching loopback health; clean stop (58.225208ms)
+✖ unsupported Internal mode exits before ready and preserves None policy (1514.634041ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3611.747208
+
+✖ failing tests:
+
+test at validation/2026-10-14-completion/capabilities/projects/runtime-existing/tests/runtime.test.cjs:22:1
+✖ selected LAN reaches original performer/monitor after matching loopback health; clean stop (58.225208ms)
+  [TypeError: fetch failed] {
+    [cause]: Error: connect ECONNREFUSED 192.168.31.13:59276
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1864:16) {
+      errno: -61,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '192.168.31.13',
+      port: 59276
+    }
+  }
+
+test at validation/2026-10-14-completion/capabilities/projects/runtime-existing/tests/runtime.test.cjs:33:1
+✖ unsupported Internal mode exits before ready and preserves None policy (1514.634041ms)
+  AssertionError [ERR_ASSERTION]: unsupported mode must exit
+      at TestContext.<anonymous> (/private/tmp/pnds161-capabilities/validation/2026-10-14-completion/capabilities/projects/runtime-existing/tests/runtime.test.cjs:35:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: null,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

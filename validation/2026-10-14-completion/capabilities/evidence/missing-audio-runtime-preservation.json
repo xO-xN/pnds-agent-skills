@@ -1,0 +1,50 @@
+[
+  {
+    "path": "manifest.json",
+    "savedSha256": "4435169152711a080ebb442f750d9f41c4892daedcebf9d43cf80d92b590ed13",
+    "executableSha256": "4435169152711a080ebb442f750d9f41c4892daedcebf9d43cf80d92b590ed13",
+    "preserved": true
+  },
+  {
+    "path": "package.json",
+    "savedSha256": "73a30b0c9e0cd1b99954e584941851ada2390b8cfb35ae7b81de713b3a3effba",
+    "executableSha256": "73a30b0c9e0cd1b99954e584941851ada2390b8cfb35ae7b81de713b3a3effba",
+    "preserved": true
+  },
+  {
+    "path": "public/monitor.html",
+    "savedSha256": "156b31ef30b4521b96769cc19073c5da3bfbd3e1240c63bf78a9373649d8925d",
+    "executableSha256": "156b31ef30b4521b96769cc19073c5da3bfbd3e1240c63bf78a9373649d8925d",
+    "preserved": true
+  },
+  {
+    "path": "public/performer.html",
+    "savedSha256": "aed2a2c51c45838e5b1d03500963dc3423c878454e7e1322715e6df2fb5e6763",
+    "executableSha256": "aed2a2c51c45838e5b1d03500963dc3423c878454e7e1322715e6df2fb5e6763",
+    "preserved": true
+  },
+  {
+    "path": "public/shared.js",
+    "savedSha256": "d9bca49f26b3d7e5fb7de15c66076a4e4a9ce5cab8d2e230c3dccf6822f9beb8",
+    "executableSha256": "d9bca49f26b3d7e5fb7de15c66076a4e4a9ce5cab8d2e230c3dccf6822f9beb8",
+    "preserved": true
+  },
+  {
+    "path": "server.cjs",
+    "savedSha256": "65c17989fd9eab3827ea8512974852ca8e260390fa60264df8209f859efc50d0",
+    "executableSha256": "65c17989fd9eab3827ea8512974852ca8e260390fa60264df8209f859efc50d0",
+    "preserved": true
+  },
+  {
+    "path": "supercollider/pending.scd",
+    "savedSha256": "13bcf2714ad035b3a198d4ac4af935e79f43df707435b07cf940273985eab529",
+    "executableSha256": "13bcf2714ad035b3a198d4ac4af935e79f43df707435b07cf940273985eab529",
+    "preserved": true
+  },
+  {
+    "path": "tests/runtime.test.cjs",
+    "savedSha256": "51cd75468ab6931523a039543cca6605ef10cb9cd058a76348722fff836ae09c",
+    "executableSha256": "51cd75468ab6931523a039543cca6605ef10cb9cd058a76348722fff836ae09c",
+    "preserved": true
+  }
+]

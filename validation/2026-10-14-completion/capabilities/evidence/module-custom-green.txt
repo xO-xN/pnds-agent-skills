@@ -1,0 +1,11 @@
+✔ selected LAN reaches original performer/monitor after matching loopback health; clean stop (131.332708ms)
+✔ unsupported Internal mode exits before ready and preserves None policy (90.189334ms)
+✔ project custom QR source survives maintenance and still serves 360px PNG plus project header (132.110042ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2373.791833

@@ -1,0 +1,49 @@
+{
+  "pnds-locale-follow": {
+    "source": "supplied PNDS App v1.6.1 development src-tauri/resources/modules",
+    "deliveryVersion": "0.2.0",
+    "hostProtocol": 1,
+    "files": {
+      "README.md": "531119394f8f0f7a39b2b72bd336274f8e3f5f660d9730625d4b4cf686be85b3",
+      "compatibility.json": "19c73a15ef21ad3d092e0719df87add1c6b064cdceef43e084a27d1d05ab645e",
+      "locale-follow.js": "c20d8b90aada25e30a18610a4d2a519cb1aa9f4c01794214a6f60a7166a31dc0",
+      "package.json": "1ae37eaf58b0a679dec937ab58ec816c769d497468ed2c132f8517db27fc1909"
+    }
+  },
+  "pnds-players": {
+    "source": "supplied PNDS App v1.6.1 development src-tauri/resources/modules",
+    "deliveryVersion": "0.2.0",
+    "hostProtocol": 1,
+    "files": {
+      "README.md": "a1fca5dd48fe122890752ca36e0ca33be8b739e9afb0c729acc0e9d0064fcf41",
+      "client.js": "436b85df34aa13bba7a92d5fc021bd3ffa9f830d4e4148a2e70a8af9686b0427",
+      "compatibility.json": "7bb6dc2fbe0d4ad3a6f33952e45333072f94320dcbe849d2c40979e05cc443dd",
+      "package.json": "1ae37eaf58b0a679dec937ab58ec816c769d497468ed2c132f8517db27fc1909",
+      "players.js": "33c200fef9202f2ad87687940c36c333c29be0f236e6c069a07d312df7913c65",
+      "protocol.js": "4ac9436df92b42ca2f17dbdd0823ecea4011e19cabd82ac2ce9dc84fc9c0d3f1",
+      "seats-store.js": "2b7e6584992fbfbb1703a5aece173b88b3d72314508cf4a61fc04e82e54dc355"
+    }
+  },
+  "pnds-qr": {
+    "source": "supplied PNDS App v1.6.1 development src-tauri/resources/modules",
+    "deliveryVersion": "0.2.0",
+    "hostProtocol": 1,
+    "files": {
+      "README.md": "175cbefa9145f65a2752cc7b944c20c6b47fd4f03ebfca6d8b90e941c79272a8",
+      "compatibility.json": "b6a4b297e5839b6209d6bd31338caf703305b583ddd12d61c8ab0c2f52bca303",
+      "package.json": "1ae37eaf58b0a679dec937ab58ec816c769d497468ed2c132f8517db27fc1909",
+      "qr.js": "949d34e74878f95077459bcb249c997a6f581718b29cb2cb3bee3b841aa7b8c9"
+    }
+  },
+  "pnds-theme-follow": {
+    "source": "supplied PNDS App v1.6.1 development src-tauri/resources/modules",
+    "deliveryVersion": "0.2.0",
+    "hostProtocol": 1,
+    "files": {
+      "README.md": "13a264a5fd239d2d3fb0ec47484399862c22fb31b93c783651482d651698311e",
+      "compatibility.json": "a294a7c546a68a97a7a09d13e647cee5979bcd3038bb53a864febf3e4bef7f1d",
+      "package.json": "1ae37eaf58b0a679dec937ab58ec816c769d497468ed2c132f8517db27fc1909",
+      "theme-follow.js": "e3c9868ddc788d8f2fbb0463de4cc8cccc6b914fccad0e2623e42e68ef7eccde"
+    }
+  }
+}

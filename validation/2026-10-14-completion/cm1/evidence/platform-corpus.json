@@ -1,0 +1,15 @@
+{
+  "kind": "explicitly supplied development source contract, not asserted as installed v1.6.1 acceptance",
+  "sourceCommit": "bfd761b38e6a27b24bf933e961ad7cc863b81777",
+  "installedAppVersionObserved": "1.6.2",
+  "installedBundledNodeObserved": "24.18.1",
+  "manualFiles": {
+    "manifest.md": "550c20aeaf2ff1f564f9a233a6addf66c5bd3fa629590a2e13b95e5444cc7e6d",
+    "structure.md": "7ba5969c5d2c9feedae7ff269d5af6d7f351941dc8bcfee17c299db0106eeab4",
+    "runtime-contract.md": "f373901fc8f29993ac4f4c57d39cfde9868abbead52b080c44171b84906bf2d7",
+    "pnds-bundle.md": "c8fffce174fcca048e05176f523c094786b8550a5c75f3b34c9b048a5afa7d25",
+    "page-interaction.md": "b99f7c1db1ff350599b7bba1f96c40a49ab77fce1694f4955bacfca6cbfccbb6",
+    "audio-modes.md": "66b2c2e9eb603f933cbefbcf8656b777e59f2399dfc7687dc8a55f59b5f7f830",
+    "network.md": "5a897380b8a7391d074b00a9b6b2f6522874a9183db897cd21d1080d7902aa7c"
+  }
+}

@@ -1,0 +1,9 @@
+# Maintenance-authored complete CM1 input triple
+
+These are original acceptance-test materials authored for Issue #188, not a user artwork or a human-author-confirmed adaptation. Fixture-author choices were authorized by the maintenance task: two players, one shared sine voice, stereo identical channels, eight seconds, two four-second score sections GATHER / RELEASE, two normalized faders, player IDs as admission metadata. No role/hub, pause/reset/jump, samples, third-party UGens, discrete score feedback, or audio channel assignment by player.
+
+Visual source: index.html loads the included p5 1.11.11 library and sketch.js. Open this source index and use START for its eight-second timeline. SuperCollider source: boot a local SuperCollider server, evaluate tone.scd once, and evaluate ~start.value together with visual START; source receivers use the language port (usually 57120) on /cm1/frequency and /cm1/gain. ~stop.value releases source-owned receivers/voice. The PNDS port automates this manual simultaneous start, retains the UGen graph/ranges/duration, uses a Host private output bus, and supplies PNDS player identities/recovery. Original defaults frequency=0.5 and gain=0.2 map to 550 Hz and 0.04 amplitude.
+
+TouchOSC source: one shared controls.tosc (zlib lexml v5), two vertical FADER controls, OSC connection 1 configured in TouchOSC to the source Mac language port. Both send x FLOAT scaled 0..1 with respective defaults 0.5 and 0.2. controls.xml is a readable serialization. IDs do not exist in the original layout; the port adds the course-required player picker without changing the two controls. Concurrent players use last parameter update on the one shared voice.
+
+Node syntax, source control inventory and actual isolated SynthDef compilation were observed. TouchOSC GUI import, source sound, simultaneous physical touches and device behavior remain pending; parser inventory does not prove import/device execution. No user source was modified.

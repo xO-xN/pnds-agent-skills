@@ -1,0 +1,11 @@
+✔ Internal group creation failure never reports ready (96.329334ms)
+✔ Internal wire protocol owns a group, maps shared tone to Host bus and cleans only its resources (8125.449125ms)
+✔ CM1 cold state, START and bounded end through real server (8328.927875ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8399.5505

@@ -1,0 +1,11 @@
+{
+  "command": "/usr/local/bin/node",
+  "args": [
+    "/var/folders/45/snb4q9n13nvd_q69cwyht8n40000gn/T/pnds-runtime-independent-6pM3LN/pnds-runtime/tools/smoke.mjs",
+    "/tmp/pnds161-acceptance-projects/runtime-existing"
+  ],
+  "cwd": "/var/folders/45/snb4q9n13nvd_q69cwyht8n40000gn/T/pnds-runtime-independent-6pM3LN/pnds-runtime",
+  "exit": 0,
+  "stdout": "{\n  \"health\": {\n    \"status\": \"ready\",\n    \"projectId\": \"existing-score\",\n    \"audioMode\": \"none\",\n    \"audio\": {\n      \"status\": \"disabled\",\n      \"target\": null,\n      \"error\": null\n    },\n    \"scoreServer\": {\n      \"performerPort\": 60412,\n      \"monitorPort\": 60413,\n      \"error\": null\n    }\n  },\n  \"runtime\": \"v24.19.0\",\n  \"mode\": \"none\",\n  \"processStopped\": true\n}\n",
+  "stderr": ""
+}

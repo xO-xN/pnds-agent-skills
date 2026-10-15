@@ -1,0 +1,22 @@
+{
+  "root": "/private/tmp/pnds161-acceptance-projects/runtime-new",
+  "manifest": {
+    "schemaVersion": 1,
+    "id": "cyan-twelve",
+    "name": "Cyan Twelve",
+    "version": "0.1.0",
+    "description": "A visual-only observation score.",
+    "scoreServer": {
+      "entry": "server.cjs",
+      "workingDirectory": ".",
+      "performerPort": 6868,
+      "monitorPort": 6869
+    },
+    "audio": {
+      "defaultMode": "none",
+      "supportedModes": [
+        "none"
+      ]
+    }
+  }
+}

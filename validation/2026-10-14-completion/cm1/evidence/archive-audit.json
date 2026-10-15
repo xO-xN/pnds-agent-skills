@@ -1,0 +1,58 @@
+{
+  "singleRoot": "CM1 Shared Tone Validation",
+  "metadata": {
+    "formatVersion": 1,
+    "packedWith": "pnds-agent-skills 0.2.0",
+    "packedAt": "2026-10-14T15:42:46.228Z",
+    "sourcePlatform": "darwin-arm64"
+  },
+  "manifest": {
+    "schemaVersion": 1,
+    "id": "cm1-shared-tone-validation",
+    "name": "CM1 Shared Tone Validation",
+    "version": "0.1.0",
+    "description": "Maintenance-authored CM1 acceptance fixture; not a user artwork.",
+    "scoreServer": {
+      "entry": "server.cjs",
+      "workingDirectory": ".",
+      "performerPort": 6968,
+      "monitorPort": 6969,
+      "supportsPerformerUrl": true
+    },
+    "audio": {
+      "defaultMode": "internal",
+      "supportedModes": [
+        "internal",
+        "none"
+      ],
+      "outputChannels": 2,
+      "synthdefs": [
+        "supercollider/synthdefs/cm1-tone.scsyndef"
+      ],
+      "scsynth": {
+        "blockSize": 64,
+        "audioBusChannels": 128
+      }
+    }
+  },
+  "archiveCrc": "pass",
+  "fileCount": 1563,
+  "declaredDependencies": {
+    "express": "4.21.2",
+    "socket.io": "4.8.1",
+    "qrcode": "1.5.4",
+    "osc-min": "1.1.2",
+    "p5": "1.11.11",
+    "socket.io-client": "4.8.3"
+  },
+  "declaredAssetSha256": {
+    "supercollider/synthdefs/cm1-tone.scsyndef": "d82c4014944365f3631b6d6ee71ec6859fe14b2d165bb9a728a2193c9b1eb59d"
+  },
+  "permissionsRetained": true,
+  "executableEntries": 8,
+  "exclusions": "root docs/test/tests plus .git*/.DS_Store anywhere absent; no live claims.json",
+  "pathsAndSymlinks": "relative, no traversal/symlinks",
+  "sha256": "292128af064eda943935a8b7494361f03fa1af7c97b602675dd17203d290e81c",
+  "bundleBytes": 4806956,
+  "scope": "validation-only artifact for supplied v1.6.1 development target; no native install or sound/phone acceptance claim"
+}

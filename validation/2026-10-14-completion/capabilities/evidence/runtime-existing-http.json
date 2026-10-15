@@ -1,0 +1,11 @@
+{
+  "command": "/usr/local/bin/node",
+  "args": [
+    "--test",
+    "/tmp/pnds161-acceptance-projects/runtime-existing/tests/runtime.test.cjs"
+  ],
+  "cwd": "/tmp/pnds161-acceptance-projects/runtime-existing",
+  "exit": 0,
+  "stdout": "✔ selected LAN reaches original performer/monitor after matching loopback health; clean stop (61.515625ms)\n✔ unsupported Internal mode exits before ready and preserves None policy (27.277792ms)\nℹ tests 2\nℹ suites 0\nℹ pass 2\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 2133.860125\n",
+  "stderr": ""
+}

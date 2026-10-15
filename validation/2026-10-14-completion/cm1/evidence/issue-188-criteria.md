@@ -1,0 +1,15 @@
+# Issue #188 CM1 completion audit
+
+Scope: implementation plus observed automated and real-browser checks; user-deferred true native/device/sound acceptance stays pending. No complete course/publication claim.
+
+| Criterion | Current implementation result | Evidence |
+| --- | --- | --- |
+| AC1 | pnds-cm1 remains explicit independently discoverable entry; SKILL input requirements and input-validation distinguish polished triple/single TouchOSC from general conversion | pnds-cm1/SKILL.md; pnds-cm1/reference/input-validation.md; actual explicitly selected maintenance task |
+| AC2 | Shared five capability documents/resources were read from fresh standalone copy; CM1-specific baseline remains only CM1 reference workflow | pnds-cm1/capabilities/; eight resource bundles/checks and17 tool tests; copied resource manifest hash |
+| AC3 | LAN/no-hub/no-role architecture; START/bounded end, real QR, player IDs, independent controls/recovery and both exact browser directions implemented; original fixture/required additions explicitly recorded | project/docs/port-map.md; real-process3 tests; browser-ledger.json; orientation screenshot; source-triple source freeze. Physical touch/scan/unlock remain deferred, not claimed |
+| AC4 | Editable source plus actual static validation .pnds delivered after complete implementation/browser audit; P7 N/A has original source evidence; Node/assets/protocol/health/browser gate retained | project/docs/output-audit.md; pack-result.json; archive-audit.json; creator-handoff. Native/device/sound completion remains pending in separate columns, validation-only artifact is not publication |
+| AC5 | Actual Codex collaboration harness ran complete selected CM1 authoring and saved source/control/lifecycle/compiler/None/browser evidence | README.md; source-freeze.json; protocol-tests.txt; bundled-node-tests.txt; synthdef-compile.txt; none-smoke.json; browser-ledger.json and seven actual screenshots. Exact model ID unavailable and not invented |
+| AC6 | Contract ZIP, compiled declared SynthDef, all six exact production dependencies and SHA256 audited; released modules0.2.0/protocol1 match copied README/compatibility/provenance; nohub/roles/telematic | archive-audit.json (1563 files); extracted-bundle-none-smoke.json; project/docs/module-provenance.json; source/proposal records. unzip/smoke is not native App install |
+| AC7 | Fresh copied CM1 directory supplies own helpers/capabilities/references; tool requirements/limitations explicit; real one-harness workflow recorded without installing unrelated Skills | resource-final.txt; skill-checks.txt (17/17); independent /tmp/pnds161-cm1-skill; exact copied manifest SHA; compiler startup correction and isolated successful compile |
+
+All seven implementation criteria are eligible for root review/checking with these explicit limitations; root owns Issue mutations. For #189 do not mark native App add/return/open or .pnds installation complete from this fixture. Static extraction/None smoke are separate evidence. Final integrated App check:all belongs to root.

@@ -1,0 +1,4 @@
+
+> cm1-shared-tone-validation@0.1.0 check
+> node --check server.cjs && node --check public/monitor.js && node --check public/performer.js && node --check public/score.js
+

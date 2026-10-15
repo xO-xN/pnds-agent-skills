@@ -1,0 +1,1 @@
+A Max patch controls eight loudspeakers from gestures. The patch and sample files are not supplied. The creator wants to assess PNDS possibilities; no rewrite is authorized.
